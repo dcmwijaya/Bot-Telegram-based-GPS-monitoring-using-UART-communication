@@ -60,7 +60,22 @@ Coming Soon...
 <br><br>
 
 ## Arduino IDE Setup
-Coming Soon...
+1. Open the ``` Arduino IDE ``` first, then open this project by clicking: ``` File ``` -> ``` Open ``` -> ``` APmicro_gpstracker.ino ```.<br><br>
+   
+2. ``` Board Setup ``` in Arduino IDE<br><br>
+   • Method: click ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```.<br><br>
+   
+3. ``` Install Library ``` in Arduino IDE<br><br>
+   • Method: download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.<br><br>
+
+4. ``` Port Setup ``` in Arduino IDE<br><br>
+   • Method: click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```.<br><br>
+
+5. Before uploading the program please click: ``` Verify ```.<br><br>
+
+6. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
+
+7. If there is still a problem when uploading the program, then try to check the ``` driver ``` / ``` port ``` / ``` others ``` section.
 
 <br><br>
 
