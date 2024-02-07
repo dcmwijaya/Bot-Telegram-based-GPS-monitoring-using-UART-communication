@@ -4,7 +4,7 @@
 ![Project](https://img.shields.io/badge/Project-Arduino-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
 # Arduino-Pro-Micro-based-GPS-Monitoring-for-Personal-Items-with-Telegram-Bot
-Proyek ini dibuat sebagai upaya meningkatkan keamanan pada barang-barang pribadi. Posisi barang dapat dimonitor setiap saat melalui bot telegram, sehingga barang yang ada tidak akan mudah dicuri. Jika seseorang kehilangan barang, selama GPS masih terpasang dan dapat berfungsi dengan baik, maka posisinya akan segera terlacak.
+Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang pribadi. Posisi barang dapat dipantau setiap saat melalui telegram bot, sehingga barang tidak akan mudah dicuri. Jika seseorang kehilangan barang, selama GPS masih terpasang dan dapat berfungsi dengan baik, maka posisinya akan segera terlacak.
 
 <br><br>
 
