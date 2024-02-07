@@ -80,6 +80,28 @@ Coming Soon...
 
 <br><br>
 
+## Telegram Bot Setup
+1. Open <a href="https://t.me/botfather">@BotFather</a>.<br><br>
+
+2. Type ``` /newbot ```.<br><br>
+
+3. Type the desired bot name, for example: ``` personalgps_bot ```.<br><br>
+
+4. Type the desired bot username, for example: ``` personalgps_bot ```.<br><br>
+
+5. Also do it for bot image settings, bot descriptions, and so on according to your needs.<br><br>
+
+6. Copy ``` your telegram bot API token ``` -> then paste it into the ``` #define BOTtoken "YOUR_API_BOT_TOKEN" ``` section. For example :
+
+   ```
+   #define BOTtoken "2006772150:AAE6Fdjk3KbiySkzV6CLbd6ClJDzgTfJ5y0"
+   ```
+   <br>
+   
+7. If it fails to connect to the Telegram Bot, then the problem may be in the firmware. Please check again.
+
+<br><br>
+
 ## Get Started
 1. Download and extract this repository.<br><br>
    
