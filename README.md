@@ -14,9 +14,10 @@ Coming Soon...
 | Development Board | Arduino Pro Micro ATMEGA32U4 |
 | Code Editor | Arduino IDE |
 | Application Support | Telegram Bot |
-| Driver | (?) |
+| Driver | USB-Serial CH340 |
 | Programming Language | C/C++ |
-| Sensor | GPS NEO6MV2 |
+| Arduino Library | TinyGPS++ and SoftwareSerial |
+| Sensor | GPS NEO6MV2 (x1) |
 | Other Components | Micro USB cable - USB type A (x1), Jumper cable (1 set), and Adaptor DC 5V (x1) |
 
 <br><br>
@@ -29,10 +30,10 @@ Coming Soon...
    ```
 <br>
 
-2. (?)
+2. USB-Serial CH340
 
    ```
-   (?)
+   https://bit.ly/CH340_Driver
    ```
    
 <br><br>
