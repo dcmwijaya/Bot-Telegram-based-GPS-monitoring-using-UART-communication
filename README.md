@@ -13,6 +13,7 @@ Coming Soon...
 | --- | --- |
 | Development Board | Arduino Pro Micro ATMEGA32U4 |
 | Code Editor | Arduino IDE |
+| Application Support | Telegram Bot |
 | Driver | - |
 | Programming Language | C/C++ |
 | Sensor | GPS NEO6MV2 |
