@@ -4,7 +4,7 @@
 ![Project](https://img.shields.io/badge/Project-Arduino-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
 # Arduino-Pro-Micro-based-GPS-Monitoring-for-Personal-Items-with-Telegram-Bot
-This project was created as an effort to increase the security of personal belongings. The user can monitor the position of the item at any time through the telegram bot. This allows the item to not be easily stolen or lost as long as the installed GPS is still there and functioning.
+This project was created as an effort to increase security on personal belongings. The position of the items can be monitored at any time through the telegram bot, so that the items will not be easily stolen. If someone loses an item, as long as the GPS is still installed and can function properly, then its position will be tracked immediately.
 
 <br><br>
 
