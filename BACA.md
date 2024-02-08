@@ -115,6 +115,11 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 
 <br><br>
 
+## Demonstrasi Aplikasi
+Via Telegram: <a href="https://t.me/personalgps_bot">@personalgps_bot</a>
+
+<br><br>
+
 ## Sorotan
 <table>
 <tr>
