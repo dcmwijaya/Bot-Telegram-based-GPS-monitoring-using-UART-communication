@@ -16,7 +16,7 @@ This project was created as an effort to increase security on personal belonging
 | Application Support | Telegram Bot |
 | Driver | USB-Serial CH340 |
 | Programming Language | C/C++ |
-| Arduino Library | TinyGPS++ and SoftwareSerial |
+| Arduino Library | TinyGPS++, SoftwareSerial, and CTBot |
 | Sensor | GPS NEO6MV2 (x1) |
 | Other Components | Micro USB cable - USB type A (x1), Jumper cable (1 set), and Adaptor DC 5V (x1) |
 
