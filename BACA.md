@@ -16,7 +16,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 | Dukungan Aplikasi | Bot Telegram |
 | Driver | USB-Serial CH340 |
 | Bahasa Pemrograman | C/C++ |
-| Pustaka Arduino | TinyGPS++ dan SoftwareSerial |
+| Pustaka Arduino | TinyGPS++, SoftwareSerial, dan CTBot |
 | Sensor | GPS NEO6MV2 (x1) |
 | Komponen Lainnya | Kabel Mikro USB - USB tipe A (x1), Kabel jumper (1 set), dan Adaptor DC 5V (x1) |
 
