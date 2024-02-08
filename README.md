@@ -115,6 +115,11 @@ This project was created as an effort to increase security on personal belonging
 
 <br><br>
 
+## Demonstration of Application
+Via Telegram: <a href="https://t.me/personalgps_bot">@personalgps_bot</a>
+
+<br><br>
+
 ## Highlights
 <table>
 <tr>
