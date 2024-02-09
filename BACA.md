@@ -11,7 +11,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 ## Kebutuhan Proyek
 | Bagian | Deskripsi |
 | --- | --- |
-| Papan Pengembangan | Arduino Pro Micro ATMEGA32U4 |
+| Papan Pengembangan | Arduino Pro Micro Leonardo ATMEGA32U4 |
 | Editor Kode | Arduino IDE |
 | Dukungan Aplikasi | Bot Telegram |
 | Driver | USB-Serial CH340 |
