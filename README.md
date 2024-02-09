@@ -11,7 +11,7 @@ This project was created as an effort to increase security on personal belonging
 ## Project Requirements
 | Part | Description |
 | --- | --- |
-| Development Board | Arduino Pro Micro ATMEGA32U4 |
+| Development Board | Arduino Pro Micro Leonardo ATMEGA32U4 |
 | Code Editor | Arduino IDE |
 | Application Support | Telegram Bot |
 | Driver | USB-Serial CH340 |
