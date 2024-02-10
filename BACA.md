@@ -62,22 +62,121 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 <br><br>
 
 ## Pengaturan Arduino IDE
-1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek ini dengan cara klik: ``` File ``` -> ``` Open ``` -> ``` APmicro_gpstracker.ino ```.<br><br>
+1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek dengan cara klik: ``` File ``` -> ``` Open ``` :
+
+   <table><tr><td width="840">
    
-2. ``` Pengaturan Board ``` di Arduino IDE<br><br>
-   • Cara: klik ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```.<br><br>
+      • ``` APmicro_gpstracker.ino ```
+      
+      • ``` WD1mini_bot.ino ```
+
+   </td></tr></table><br>
    
-3. ``` Instal Pustaka ``` di Arduino IDE<br><br>
-   • Cara: unduh semua file zip pustaka. Kemudian tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.<br><br>
+2. Isi ``` Url Pengelola Papan Tambahan ``` di Arduino IDE
 
-4. ``` Pengaturan Port ``` di Arduino IDE<br><br>
-   • Cara: klik ``` Port ``` -> Pilih sesuai dengan port perangkat Anda ``` (Anda dapat melihatnya di Device Manager) ```.<br><br>
+   <table><tr><td width="840">
+      
+      Klik ``` File ``` -> ``` Preferences ``` -> masukkan ``` Boards Manager Url ``` dengan menyalin tautan berikut:
+   
+      ```
+      http://arduino.esp8266.com/stable/package_esp8266com_index.json
+      ```
 
-5. Sebelum mengunggah program, silakan klik: ``` Verify ```.<br><br>
+   </td></tr></table><br>
+   
+3. ``` Pengaturan Board ``` di Arduino IDE
 
-6. Jika tidak ada kesalahan dalam kode program, silakan klik: ``` Upload ```.<br><br>
+   <table>
+      <tr><th>
+         
+      i
+         
+      </th><th width="810">
+            
+      Cara mengatur board ``` Arduino Pro Micro ```
+   
+      </th></tr>
+      <tr><td colspan="2" width="810">
 
-7. Jika saat unggah program masih terdapat masalah, maka coba periksa pada bagian ``` driver ``` / ``` port ``` / ``` yang lainnya ```.
+      Klik: ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```.
+              
+      </td></tr>
+   </table><br><table>
+      <tr><th>
+         
+      ii
+         
+      </th><th width="810">
+
+      Cara mengatur board ``` Wemos D1 Mini ```
+            
+      </th></tr>
+      <tr><td colspan="2" width="810">
+
+      • Klik bagian ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp8266 ```.
+
+      • Kemudian klik: ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Boards ``` -> ``` NodeMCU 1.0 (ESP-12E Module) ```.
+            
+      </td></tr>
+   </table><br>
+   
+4. ``` Ubah Kecepatan Papan ``` di Arduino IDE
+
+   <table>
+      <tr><th>
+         
+      i
+         
+      </th><th width="810">
+            
+      Cara mengubah kecepatan board ``` Arduino Pro Micro ```
+   
+      </th></tr>
+      <tr><td colspan="2" width="810">
+
+      Klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 9600 ```.
+              
+      </td></tr>
+   </table><br><table>
+      <tr><th>
+         
+      ii
+         
+      </th><th width="810">
+
+      Cara mengubah kecepatan board ``` Wemos D1 Mini ```
+            
+      </th></tr>
+      <tr><td colspan="2" width="810">
+
+      Klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```.
+            
+      </td></tr>
+   </table><br>
+   
+5. ``` Instal Pustaka ``` di Arduino IDE
+
+   <table><tr><td width="840">
+     
+      Unduh semua file zip pustaka. Lalu tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.
+
+   </td></tr></table><br>
+
+6. ``` Pengaturan Port ``` di Arduino IDE
+
+   <table><tr><td width="840">
+
+      Klik ``` Port ``` -> pilih sesuai dengan port perangkat anda ``` (anda dapat melihatnya di Device Manager) ```.
+         
+   </td></tr></table><br>
+
+7. Ubah ``` Nama WiFi ```, ``` Kata Sandi WiFi ```, dan sebagainya sesuai dengan apa yang anda gunakan saat ini.<br><br>
+
+8. Sebelum mengunggah program, silakan klik: ``` Verify ```.<br><br>
+
+9. Jika tidak ada kesalahan dalam kode program, silakan klik: ``` Upload ```.<br><br>
+
+10. Jika masih ada masalah saat unggah program, maka coba periksa pada bagian ``` driver ``` / ``` port ``` / ``` yang lainnya ```.
 
 <br><br>
 
