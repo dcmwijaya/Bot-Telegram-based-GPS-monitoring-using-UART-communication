@@ -98,7 +98,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
       </th></tr>
       <tr><td colspan="2" width="810">
 
-      Klik: ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```.
+      Klik ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```.
               
       </td></tr>
    </table><br><table>
@@ -115,7 +115,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 
       • Klik bagian ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp8266 ```.
 
-      • Kemudian klik: ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Boards ``` -> ``` NodeMCU 1.0 (ESP-12E Module) ```.
+      • Kemudian klik ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Boards ``` -> ``` NodeMCU 1.0 (ESP-12E Module) ```.
             
       </td></tr>
    </table><br>
