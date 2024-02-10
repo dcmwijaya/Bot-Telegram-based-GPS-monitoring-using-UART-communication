@@ -98,7 +98,7 @@ This project was created as an effort to increase security on personal belonging
       </th></tr>
       <tr><td colspan="2" width="810">
 
-      • Then click: ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```.
+      Click: ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```.
               
       </td></tr>
    </table><br><table>
