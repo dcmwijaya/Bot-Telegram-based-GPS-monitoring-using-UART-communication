@@ -200,11 +200,7 @@ This project was created as an effort to increase security on personal belonging
    #define BOTtoken "2006772150:AAE6Fdjk3KbiySkzV6CLbd6ClJDzgTfJ5y0"
    ```
    
-   </td></tr></table><br>
-   
-7. If it fails to connect to the Telegram Bot, then the problem may be in the firmware. Please check again.
-
-<br><br>
+   </td></tr></table><br><br>
 
 ## Get Started
 1. Download and extract this repository.<br><br>
