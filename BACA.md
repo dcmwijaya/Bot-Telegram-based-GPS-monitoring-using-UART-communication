@@ -200,11 +200,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
    #define BOTtoken "2006772150:AAE6Fdjk3KbiySkzV6CLbd6ClJDzgTfJ5y0"
    ```
 
-   </td></tr></table><br>
-   
-7. Jika gagal terkoneksi ke Bot Telegram, maka perkiraan masalahnya ada di bagian firmware. Silakan periksa lagi.
-
-<br><br>
+   </td></tr></table><br><br>
 
 ## Memulai
 1. Unduh dan ekstrak repositori ini.<br><br>
