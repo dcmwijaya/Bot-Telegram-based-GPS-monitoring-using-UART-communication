@@ -46,7 +46,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 <th width="420">Diagram Ilustrasi</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Arduino-Pro-Micro-based-GPS-Monitoring-for-Personal-Items-with-Telegram-Bot/assets/54527592/ab6d63d0-23cc-4696-b1fc-fe34fe09162b" alt="Block-Diagram"></td>
+<td><img src="https://github.com/devancakra/Arduino-Pro-Micro-based-GPS-Monitoring-for-Personal-Items-with-Telegram-Bot/assets/54527592/586d6f7d-764b-44a7-9121-cfd8e4d45f57" alt="Block-Diagram"></td>
 <td><img src="" alt="Pictorial-Diagram"></td>
 </tr>
 </table>
