@@ -62,22 +62,121 @@ This project was created as an effort to increase security on personal belonging
 <br><br>
 
 ## Arduino IDE Setup
-1. Open the ``` Arduino IDE ``` first, then open this project by clicking: ``` File ``` -> ``` Open ``` -> ``` APmicro_gpstracker.ino ```.<br><br>
+1. Open the ``` Arduino IDE ``` first, then open the project by clicking: ``` File ``` -> ``` Open ``` :
+
+   <table><tr><td width="840">
    
-2. ``` Board Setup ``` in Arduino IDE<br><br>
-   • Method: click ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```.<br><br>
+      • ``` APmicro_gpstracker.ino ```
+      
+      • ``` WD1mini_bot ```
+
+   </td></tr></table><br>
    
-3. ``` Install Library ``` in Arduino IDE<br><br>
-   • Method: download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.<br><br>
+2. Fill in the ``` Additional Board Manager URLs ``` in Arduino IDE
 
-4. ``` Port Setup ``` in Arduino IDE<br><br>
-   • Method: click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```.<br><br>
+   <table><tr><td width="840">
+      
+      Click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link:
+   
+      ```
+      http://arduino.esp8266.com/stable/package_esp8266com_index.json
+      ```
 
-5. Before uploading the program please click: ``` Verify ```.<br><br>
+   </td></tr></table><br>
+   
+3. ``` Board Setup ``` in Arduino IDE
 
-6. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
+   <table>
+      <tr><th>
+         
+      i
+         
+      </th><th width="810">
+            
+      How to setup the ``` Arduino Pro Micro ``` board
+   
+      </th></tr>
+      <tr><td colspan="2" width="810">
 
-7. If there is still a problem when uploading the program, then try to check the ``` driver ``` / ``` port ``` / ``` others ``` section.
+      • Then click: ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```.
+              
+      </td></tr>
+   </table><br><table>
+      <tr><th>
+         
+      ii
+         
+      </th><th width="810">
+
+      How to setup the ``` Wemos D1 Mini ``` board
+            
+      </th></tr>
+      <tr><td colspan="2" width="810">
+
+      • Click ``` Tools ``` section -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp8266 ```.
+
+      • Then click ``` Tools ``` -> ``` Board ``` -> ``` ESP8266 Boards ``` -> ``` Wemos D1 Mini ```.
+            
+      </td></tr>
+   </table><br>
+   
+4. ``` Change the Board Speed ``` in Arduino IDE
+
+   <table>
+      <tr><th>
+         
+      i
+         
+      </th><th width="810">
+            
+      How to change the speed of ``` Arduino Pro Micro ``` board
+   
+      </th></tr>
+      <tr><td colspan="2" width="810">
+
+      Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 9600 ```.
+              
+      </td></tr>
+   </table><br><table>
+      <tr><th>
+         
+      ii
+         
+      </th><th width="810">
+
+      How to change the speed of ``` Wemos D1 Mini ``` board
+            
+      </th></tr>
+      <tr><td colspan="2" width="810">
+
+      Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```.
+            
+      </td></tr>
+   </table><br>
+   
+5. ``` Install Library ``` in Arduino IDE
+
+   <table><tr><td width="840">
+         
+      Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.
+
+   </td></tr></table><br>
+
+6. ``` Port Setup ``` in Arduino IDE
+
+   <table><tr><td width="840">
+         
+      Click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```.
+
+   </td></tr></table><br>
+
+7. Change the ``` WiFi Name ```, ``` WiFi Password ```, and so on according to what you are currently using.<br><br>
+
+8. Before uploading the program please click: ``` Verify ```.<br><br>
+
+9. If there is no error in the program code, then please click: ``` Upload ```<br><br>
+
+10. If there is still a problem when uploading the program, then try checking the ```driver ``` / ``` port ``` / ``` others ``` section.
 
 <br><br>
 
@@ -92,12 +191,16 @@ This project was created as an effort to increase security on personal belonging
 
 5. Also do it for bot image settings, bot descriptions, and so on according to your needs.<br><br>
 
-6. Copy ``` your telegram bot API token ``` -> then paste it into the ``` #define BOTtoken "YOUR_API_BOT_TOKEN" ``` section. For example :
+6. Copy ``` your telegram bot API token ``` -> then paste it into the ``` #define BOTtoken "YOUR_API_BOT_TOKEN" ``` section. 
+
+   <table><tr><td width="840">
+   For example :<br><br>
 
    ```
    #define BOTtoken "2006772150:AAE6Fdjk3KbiySkzV6CLbd6ClJDzgTfJ5y0"
    ```
-   <br>
+   
+   </td></tr></table><br>
    
 7. If it fails to connect to the Telegram Bot, then the problem may be in the firmware. Please check again.
 
