@@ -68,7 +68,7 @@ This project was created as an effort to increase security on personal belonging
    
       • ``` APmicro_gpstracker.ino ```
       
-      • ``` WD1mini_bot ```
+      • ``` WD1mini_bot.ino ```
 
    </td></tr></table><br>
    
