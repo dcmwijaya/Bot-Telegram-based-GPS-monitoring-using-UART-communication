@@ -62,7 +62,7 @@ This project was created as an effort to increase security on personal belonging
 <br><br>
 
 ## Arduino IDE Setup
-1. Open the ``` Arduino IDE ``` first, then open the project by clicking: ``` File ``` -> ``` Open ``` :
+1. Open the ``` Arduino IDE ``` first, then open the project by clicking ``` File ``` -> ``` Open ``` :
 
    <table><tr><td width="840">
    
