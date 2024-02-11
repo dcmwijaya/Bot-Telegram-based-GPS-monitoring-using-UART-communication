@@ -134,7 +134,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
       </th></tr>
       <tr><td colspan="2" width="810">
 
-      Klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 9600 ```.
+      Klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 9600 ```
               
       </td></tr>
    </table><br><table>
@@ -149,7 +149,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
       </th></tr>
       <tr><td colspan="2" width="810">
 
-      Klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```.
+      Klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```
             
       </td></tr>
    </table><br>
