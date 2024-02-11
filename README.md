@@ -98,7 +98,7 @@ This project was created as an effort to increase security on personal belonging
       </th></tr>
       <tr><td colspan="2" width="810">
 
-      Click ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```.
+      Click ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```
               
       </td></tr>
    </table><br><table>
@@ -134,7 +134,7 @@ This project was created as an effort to increase security on personal belonging
       </th></tr>
       <tr><td colspan="2" width="810">
 
-      Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 9600 ```.
+      Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 9600 ```
               
       </td></tr>
    </table><br><table>
@@ -149,7 +149,7 @@ This project was created as an effort to increase security on personal belonging
       </th></tr>
       <tr><td colspan="2" width="810">
 
-      Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```.
+      Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```
             
       </td></tr>
    </table><br>
@@ -158,7 +158,7 @@ This project was created as an effort to increase security on personal belonging
 
    <table><tr><td width="840">
          
-      Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```.
+      Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
 
    </td></tr></table><br>
 
@@ -166,7 +166,7 @@ This project was created as an effort to increase security on personal belonging
 
    <table><tr><td width="840">
          
-      Click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```.
+      Click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```
 
    </td></tr></table><br>
 
