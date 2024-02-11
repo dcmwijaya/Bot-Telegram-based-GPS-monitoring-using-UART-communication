@@ -76,7 +76,7 @@ This project was created as an effort to increase security on personal belonging
 
    <table><tr><td width="840">
       
-      Click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link:
+      Click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link :
    
       ```
       http://arduino.esp8266.com/stable/package_esp8266com_index.json
