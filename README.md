@@ -98,7 +98,7 @@ This project was created as an effort to increase security on personal belonging
          
       i
          
-      </th><th width="810">
+      </th><th width="780">
             
       How to setup the ``` Arduino Pro Micro ``` board
    
@@ -134,7 +134,7 @@ This project was created as an effort to increase security on personal belonging
          
       i
          
-      </th><th width="810">
+      </th><th width="780">
             
       How to change the speed of ``` Arduino Pro Micro ``` board
    
