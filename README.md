@@ -183,7 +183,7 @@ This project was created as an effort to increase security on personal belonging
 
 9. If there is no error in the program code, then please click: ``` Upload ```.<br><br>
 
-10. If there is still a problem when uploading the program, then try checking the ```driver ``` / ``` port ``` / ``` others ``` section.
+10. If there is still a problem when uploading the program, then try checking the ``` driver ``` / ``` port ``` / ``` others ``` section.
 
 <br><br>
 
