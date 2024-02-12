@@ -26,16 +26,23 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 ## Unduh & Instal
 1. Arduino IDE
 
+   <table><tr><td width="810">
+
    ```
    https://www.arduino.cc/en/software
    ```
-<br>
+
+   </td></tr></table><br>
 
 2. USB-Serial CH340
+
+   <table><tr><td width="810">
 
    ```
    https://bit.ly/CH340_Driver
    ```
+
+   </td></tr></table>
    
 <br><br>
 
@@ -64,7 +71,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 ## Pengaturan Arduino IDE
 1. Buka ``` Arduino IDE ``` terlebih dahulu, kemudian buka proyek dengan cara klik ``` File ``` -> ``` Open ``` :
 
-   <table><tr><td width="840">
+   <table><tr><td width="810">
    
       • ``` APmicro_gpstracker.ino ```
       
@@ -74,7 +81,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
    
 2. Isi ``` Url Pengelola Papan Tambahan ``` di Arduino IDE
 
-   <table><tr><td width="840">
+   <table><tr><td width="810">
       
       Klik ``` File ``` -> ``` Preferences ``` -> masukkan ``` Boards Manager Url ``` dengan menyalin tautan berikut :
    
@@ -91,12 +98,12 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
          
       i
          
-      </th><th width="810">
+      </th><th width="780">
             
       Cara mengatur board ``` Arduino Pro Micro ```
    
       </th></tr>
-      <tr><td colspan="2" width="810">
+      <tr><td colspan="2">
 
       Klik ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```
               
@@ -106,12 +113,12 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
          
       ii
          
-      </th><th width="810">
+      </th><th width="775">
 
       Cara mengatur board ``` Wemos D1 Mini ```
             
       </th></tr>
-      <tr><td colspan="2" width="810">
+      <tr><td colspan="2">
 
       • Klik bagian ``` Tools ``` -> ``` Board ``` -> ``` Boards Manager ``` -> Instal ``` esp8266 ```.
 
@@ -127,12 +134,12 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
          
       i
          
-      </th><th width="810">
+      </th><th width="780">
             
       Cara mengubah kecepatan board ``` Arduino Pro Micro ```
    
       </th></tr>
-      <tr><td colspan="2" width="810">
+      <tr><td colspan="2">
 
       Klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 9600 ```
               
@@ -142,12 +149,12 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
          
       ii
          
-      </th><th width="810">
+      </th><th width="775">
 
       Cara mengubah kecepatan board ``` Wemos D1 Mini ```
             
       </th></tr>
-      <tr><td colspan="2" width="810">
+      <tr><td colspan="2">
 
       Klik ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```
             
@@ -156,7 +163,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
    
 5. ``` Instal Pustaka ``` di Arduino IDE
 
-   <table><tr><td width="840">
+   <table><tr><td width="810">
      
       Unduh semua file zip pustaka. Lalu tempelkan di: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
 
@@ -164,7 +171,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 
 6. ``` Pengaturan Port ``` di Arduino IDE
 
-   <table><tr><td width="840">
+   <table><tr><td width="810">
 
       Klik ``` Port ``` -> pilih sesuai dengan port perangkat anda ``` (anda dapat melihatnya di Device Manager) ```
          
@@ -193,7 +200,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 
 6. Salin ``` API token bot telegram anda ``` -> lalu tempelkan pada bagian ``` #define BOTtoken "YOUR_API_BOT_TOKEN" ```. 
 
-   <table><tr><td width="840">
+   <table><tr><td width="810">
    Contohnya yaitu :<br><br>
 
    ```
