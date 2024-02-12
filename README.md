@@ -71,7 +71,7 @@ This project was created as an effort to increase security on personal belonging
 ## Arduino IDE Setup
 1. Open the ``` Arduino IDE ``` first, then open the project by clicking ``` File ``` -> ``` Open ``` :
 
-   <table><tr><td width="840">
+   <table><tr><td width="810">
    
       • ``` APmicro_gpstracker.ino ```
       
@@ -81,7 +81,7 @@ This project was created as an effort to increase security on personal belonging
    
 2. Fill in the ``` Additional Board Manager URLs ``` in Arduino IDE
 
-   <table><tr><td width="840">
+   <table><tr><td width="810">
       
       Click ``` File ``` -> ``` Preferences ``` -> enter the ``` Boards Manager Url ``` by copying the following link :
    
@@ -103,7 +103,7 @@ This project was created as an effort to increase security on personal belonging
       How to setup the ``` Arduino Pro Micro ``` board
    
       </th></tr>
-      <tr><td colspan="2" width="810">
+      <tr><td colspan="2">
 
       Click ``` Tools ``` -> ``` Board ``` -> ``` Arduino AVR Boards ``` -> ``` Arduino Micro ```
               
@@ -113,12 +113,12 @@ This project was created as an effort to increase security on personal belonging
          
       ii
          
-      </th><th width="810">
+      </th><th width="775">
 
       How to setup the ``` Wemos D1 Mini ``` board
             
       </th></tr>
-      <tr><td colspan="2" width="810">
+      <tr><td colspan="2">
 
       • Click ``` Tools ``` section -> ``` Board ``` -> ``` Boards Manager ``` -> Install ``` esp8266 ```.
 
@@ -139,7 +139,7 @@ This project was created as an effort to increase security on personal belonging
       How to change the speed of ``` Arduino Pro Micro ``` board
    
       </th></tr>
-      <tr><td colspan="2" width="810">
+      <tr><td colspan="2">
 
       Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 9600 ```
               
@@ -149,12 +149,12 @@ This project was created as an effort to increase security on personal belonging
          
       ii
          
-      </th><th width="810">
+      </th><th width="775">
 
       How to change the speed of ``` Wemos D1 Mini ``` board
             
       </th></tr>
-      <tr><td colspan="2" width="810">
+      <tr><td colspan="2">
 
       Click ``` Tools ``` -> ``` Upload Speed ``` -> ``` 115200 ```
             
@@ -163,7 +163,7 @@ This project was created as an effort to increase security on personal belonging
    
 5. ``` Install Library ``` in Arduino IDE
 
-   <table><tr><td width="840">
+   <table><tr><td width="810">
          
       Download all the library zip files. Then paste it in the: ``` C:\Users\Computer_Username\Documents\Arduino\libraries ```
 
@@ -171,7 +171,7 @@ This project was created as an effort to increase security on personal belonging
 
 6. ``` Port Setup ``` in Arduino IDE
 
-   <table><tr><td width="840">
+   <table><tr><td width="810">
          
       Click ``` Port ``` -> Choose according to your device port ``` (you can see in device manager) ```
 
@@ -200,7 +200,7 @@ This project was created as an effort to increase security on personal belonging
 
 6. Copy ``` your telegram bot API token ``` -> then paste it into the ``` #define BOTtoken "YOUR_API_BOT_TOKEN" ``` section. 
 
-   <table><tr><td width="840">
+   <table><tr><td width="810">
    For example :<br><br>
 
    ```
