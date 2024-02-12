@@ -26,16 +26,23 @@ This project was created as an effort to increase security on personal belonging
 ## Download & Install
 1. Arduino IDE
 
+   <table><tr><td width="810">
+         
    ```
    https://www.arduino.cc/en/software
    ```
-<br>
 
+   </td></tr></table><br>
+   
 2. USB-Serial CH340
 
+   <table><tr><td width="810">
+   
    ```
    https://bit.ly/CH340_Driver
    ```
+   
+   </td></tr></table>
    
 <br><br>
 
