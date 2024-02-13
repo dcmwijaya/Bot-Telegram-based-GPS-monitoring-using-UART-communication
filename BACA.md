@@ -201,7 +201,8 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 6. Salin ``` API token bot telegram anda ``` -> lalu tempelkan pada bagian ``` #define BOTtoken "YOUR_API_BOT_TOKEN" ```. 
 
    <table><tr><td width="810">
-   Contohnya yaitu :<br><br>
+      
+   Contohnya :
 
    ```
    #define BOTtoken "2006772150:AAE6Fdjk3KbiySkzV6CLbd6ClJDzgTfJ5y0"
