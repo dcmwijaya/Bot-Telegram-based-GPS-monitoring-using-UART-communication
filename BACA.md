@@ -16,6 +16,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 | Editor Kode | Arduino IDE |
 | Dukungan Aplikasi | Bot Telegram |
 | Driver | USB-Serial CH340 |
+| Protokol Komunikasi | MTProto |
 | Bahasa Pemrograman | C/C++ |
 | Pustaka Arduino | • TinyGPS++<br>• SoftwareSerial<br>• CTBot |
 | Sensor | GPS NEO6MV2 (x1) |
