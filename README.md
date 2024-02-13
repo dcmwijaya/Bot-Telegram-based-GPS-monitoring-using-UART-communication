@@ -16,7 +16,7 @@ This project was created as an effort to increase security on personal belonging
 | Code Editor | Arduino IDE |
 | Application Support | Telegram Bot |
 | Driver | USB-Serial CH340 |
-| Communications Protocol | MTProto |
+| Communications Protocol | • Universal Asynchronous Receiver-Transmitter (UART)<br>• MTProto |
 | Programming Language | C/C++ |
 | Arduino Library | • TinyGPS++<br>• SoftwareSerial<br>• CTBot |
 | Sensor | GPS NEO6MV2 (x1) |
