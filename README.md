@@ -201,6 +201,7 @@ This project was created as an effort to increase security on personal belonging
 6. Copy ``` your telegram bot API token ``` -> then paste it into the ``` #define BOTtoken "YOUR_API_BOT_TOKEN" ``` section. 
 
    <table><tr><td width="810">
+      
    For example :<br><br>
 
    ```
