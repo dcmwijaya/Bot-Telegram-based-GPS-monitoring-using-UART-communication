@@ -202,7 +202,7 @@ This project was created as an effort to increase security on personal belonging
 
    <table><tr><td width="810">
       
-   For example :<br><br>
+   For example :
 
    ```
    #define BOTtoken "2006772150:AAE6Fdjk3KbiySkzV6CLbd6ClJDzgTfJ5y0"
