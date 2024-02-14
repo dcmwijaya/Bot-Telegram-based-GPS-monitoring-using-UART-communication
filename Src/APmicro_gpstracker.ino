@@ -36,9 +36,7 @@ void internal_data(){
 // Method: external_data
 void external_data(){
   // send data from Arduino Pro Micro to Wemos D1 Mini
-  Serial1.println("Retrieve serial data from Arduino Pro Micro board...");
-  delay(1000); // delay -> 1 second
-  Serial1.println("lattitude : "+String(lattitude,6));
-  Serial1.println("longitude : "+String(longitude,6));
+  Serial1.println(String(lattitude,6));
+  Serial1.println(String(longitude,6));
   delay(1000); // delay -> 1 second 
 }
