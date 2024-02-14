@@ -10,6 +10,8 @@ void setup() {
 
 // Method: loop
 void loop() {  
+  Serial.println("Retrieve serial data from Arduino Pro Micro board..."); // display data to the Wemos D1 Mini serial monitor
+  delay(2000); // delay -> 2 second  
   String location = ""; // this String data type is used to store location data
   while(maps.available()){ // this loop is used to read the available location data from the serial object
     location += char(maps.read()); // adds each character read into a data string named location
