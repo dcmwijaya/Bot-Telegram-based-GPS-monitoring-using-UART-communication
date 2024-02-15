@@ -17,7 +17,7 @@ void loop() {
 // Method: gpssensor
 void gpssensor(){
   while(!mcuSerial.available()){ Serial.println("Failed to get sensor data, system tries to reconnect communication !!"); } // serial communication with the Arduino Pro Micro board failed
-  raw_data = ""; // this String data type is used to store location data
+  raw_data = ""; // this String data type is used to store latitude & longitude data
   while(mcuSerial.available()){ // this loop is used to read the available location data from the serial object
     raw_data += char(mcuSerial.read()); // adds each sensor data reading into a data string named raw_data
   }  
