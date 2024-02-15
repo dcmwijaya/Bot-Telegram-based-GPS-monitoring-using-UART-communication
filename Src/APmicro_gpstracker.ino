@@ -21,8 +21,24 @@ void setup() {
 // Method: loop
 void loop() {  
   sensor(); // calling the sensor method
-  internal_data(); // calling the internal_data method
-  external_data(); // calling the external_data method
+}
+
+// Method: view_data
+void view_data(){
+  // display data to the Arduino Pro Micro serial monitor
+  Serial.println("Transmit serial data to Wemos D1 Mini...");
+  delay(1000); // delay -> 1 second
+  Serial.println("lattitude : " + lattitude);
+  Serial.println("longitude : " + longitude);
+  delay(1000); // delay -> 1 second
+}
+
+// Method: send_data
+void send_data(){
+  // send data from Arduino Pro Micro to Wemos D1 Mini
+  Serial1.print(lattitude);
+  Serial1.print(longitude);
+  delay(1000); // delay -> 1 second
 }
 
 // Method: sensor
@@ -37,23 +53,8 @@ void sensor(){
 
     lattitude = String(lat, 6);
     longitude = String(lng, 6);
+    
+    view_data(); // calling the view_data method
+    send_data(); // calling the send_data method
   }
-}
-
-// Method: internal_data
-void internal_data(){
-  // display data to the Arduino Pro Micro serial monitor
-  Serial.println("Transmit serial data to Wemos D1 Mini...");
-  delay(1000); // delay -> 1 second
-  Serial.println("lattitude : " + lattitude);
-  Serial.println("longitude : " + longitude);
-  delay(1000); // delay -> 1 second
-}
-
-// Method: external_data
-void external_data(){
-  // send data from Arduino Pro Micro to Wemos D1 Mini
-  Serial1.print(lattitude);
-  Serial1.print(longitude);
-  delay(1000); // delay -> 1 second
 }
