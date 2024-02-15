@@ -21,6 +21,6 @@ void gpssensor(){
   while(WemosSerial.available() > 0){ // this loop is used to read the available location data from the serial object
     location += char(WemosSerial.read()); // adds each sensor data reading into a data string named location
   }  
-  Serial.println(location); // print location data on the serial monitor
+  Serial.println(String(location)); // print location data on the serial monitor
   delay(1000); // delay -> 1 second 
 }
