@@ -1,12 +1,12 @@
 #include <SoftwareSerial.h> // calls a library called SoftwareSerial.h
-SoftwareSerial mcuSerial(12, 13); // D6 As RX, D7 As TX -> Wemos D1 Mini
+SoftwareSerial mcuSerial(12, 13); // D6 As RX, D7 As TX -> Wemos D1 Mini to Arduino Pro Micro
 
 String raw_data, location; // data with String type is used for GPS sensor purposes
 
 // Method: setup
 void setup() {
-  Serial.begin(115200); // start serial communication internally
-  mcuSerial.begin(115200); // start serial communication externally  
+  Serial.begin(115200); // // start serial communication inside the Wemos D1 Mini
+  mcuSerial.begin(115200); // start serial communication externally to Arduino Pro Micro
 }
 
 // Method: loop
