@@ -1,12 +1,20 @@
 #include <SoftwareSerial.h> // calls a library called SoftwareSerial.h
-SoftwareSerial APMicroserial(0, 1); // rx, tx -> Arduino Pro Micro
+#include <TinyGPS++.h> // calls a library called TinyGPS++.h
 
+// variable initialization
+static const int RXPin = 0, TXPin = 1; // RXD, TXD pin -> Arduino Pro Micro
+static const uint32_t GPSBaud = 9600; // baudrate -> 9600
 float lat, lng; // data with float type is used for GPS sensor purposes
 String lattitude, longitude; // data with String type is used for GPS sensor purposes
+
+// new object initialization
+SoftwareSerial APMicroserial(RXPin, TXPin); 
+TinyGPSPlus gps;
 
 // Method: setup
 void setup() {
   Serial.begin(9600); // start serial communication internally
+  APMicroserial.begin(GPSBaud); // start serial communication internally
   Serial1.begin(115200); // start serial communication externally 
 }
 
@@ -19,11 +27,17 @@ void loop() {
 
 // Method: sensor
 void sensor(){
-  // dummy Data
-  lat = -7.3364958;
-  lng = 112.6367014;
-  lattitude = String(lat, 6);
-  longitude = String(lng, 6);
+  while(APMicroserial.available() > 0){
+    gps.encode(APMicroserial.read());
+    
+    if (gps.location.isUpdated()){
+      lat = (gps.location.lat());
+      lng = (gps.location.lng());
+    }
+
+    lattitude = String(lat, 6);
+    longitude = String(lng, 6);
+  }
 }
 
 // Method: internal_data
