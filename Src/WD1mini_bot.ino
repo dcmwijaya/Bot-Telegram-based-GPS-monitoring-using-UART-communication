@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h> // calls a library called SoftwareSerial.h
 SoftwareSerial mcuSerial(12, 13); // D6 As RX, D7 As TX -> Wemos D1 Mini to Arduino Pro Micro
 
-String raw_data, location; // data with String type is used for GPS sensor purposes
+String raw_data, latitude, longitude; // data with String type is used for GPS sensor purposes
 
 // Method: setup
 void setup() {
@@ -21,9 +21,28 @@ void gpssensor(){
   while(mcuSerial.available()){ // this loop is used to read the available location data from the serial object
     raw_data += char(mcuSerial.read()); // adds each sensor data reading into a data string named raw_data
   }  
-  location = raw_data.c_str(); // location variable is used to store string conversion data from raw_data
+  latitude = getValue(raw_data, ' ', 0); // this variable is used to store latitude data
+  longitude = getValue(raw_data, ' ', 1); // this variable is used to store longitude data
   Serial.println("Retrieve serial data from Arduino Pro Micro board..."); // display data to the Wemos D1 Mini serial monitor
   delay(2000); // delay -> 2 second 
-  Serial.println(location); // print location data on the serial monitor
+  Serial.println(latitude); // print latitude data on the serial monitor
+  Serial.println(longitude); // longitude data on the serial monitor
   delay(1000); // delay -> 1 second 
+}
+
+String getValue(String data, char separator, int index){
+  int found = 0;
+  int strIndex[] = {0, -1};
+  int maxIndex = data.length()-1;
+  int i;
+ 
+  for(i=0; i<=maxIndex && found<=index; i++){
+    if(data.charAt(i)==separator || i==maxIndex){
+        found++;
+        strIndex[0] = strIndex[1]+1;
+        strIndex[1] = (i == maxIndex) ? i+1 : i;
+    }
+  } 
+ 
+  return found>index ? data.substring(strIndex[0], strIndex[1]) : "";
 }
