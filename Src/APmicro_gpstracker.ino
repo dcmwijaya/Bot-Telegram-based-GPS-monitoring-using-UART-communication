@@ -1,3 +1,6 @@
+#include <SoftwareSerial.h> // calls a library called SoftwareSerial.h
+SoftwareSerial APMicroserial(0, 1); // rx, tx -> Arduino Pro Micro
+
 float lattitude, longitude; // data with float type is used for GPS sensor purposes
 
 // Method: setup
