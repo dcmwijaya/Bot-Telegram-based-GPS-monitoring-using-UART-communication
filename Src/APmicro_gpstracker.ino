@@ -22,8 +22,8 @@ void sensor(){
   // dummy Data
   lat = -7.3364958;
   lng = 112.6367014;
-  lattitude = String(lat);
-  longitude = String(lng);
+  lattitude = String(lat, 6);
+  longitude = String(lng, 6);
 }
 
 // Method: internal_data
@@ -31,8 +31,8 @@ void internal_data(){
   // display data to the Arduino Pro Micro serial monitor
   Serial.println("Transmit serial data to Wemos D1 Mini...");
   delay(1000); // delay -> 1 second
-  Serial.println("lattitude : "+lattitude);
-  Serial.println("longitude : "+longitude);
+  Serial.println("lattitude : " + lattitude);
+  Serial.println("longitude : " + longitude);
   delay(1000); // delay -> 1 second
 }
 
