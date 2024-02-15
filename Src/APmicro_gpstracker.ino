@@ -2,8 +2,8 @@
 #include <TinyGPS++.h> // calls a library called TinyGPS++.h
 
 // new object initialization
-SoftwareSerial gpsSerial(2,3); // RXD, TXD pin -> Arduino Pro Micro to GPS Module Sensor
 SoftwareSerial mcuSerial(0,1); // RXD, TXD pin -> Arduino Pro Micro to Wemos D1 Mini
+SoftwareSerial gpsSerial(2,3); // RXD, TXD pin -> Arduino Pro Micro to GPS Module Sensor
 TinyGPSPlus gps;
 
 // variable initialization
@@ -13,9 +13,9 @@ String latitude, longitude; // data with String type is used for GPS sensor purp
 // Method: setup
 void setup() {
   Serial.begin(9600); // start serial communication inside the Arduino Pro Micro
-  gpsSerial.begin(9600); // start serial communication to GPS Module Sensor
   Serial1.begin(115200); // start serial communication to Wemos D1 Mini
   mcuSerial.begin(115200); // start serial communication to Wemos D1 Mini
+  gpsSerial.begin(9600); // start serial communication to GPS Module Sensor
 }
 
 // Method: loop
