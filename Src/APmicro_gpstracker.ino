@@ -1,7 +1,8 @@
 #include <SoftwareSerial.h> // calls a library called SoftwareSerial.h
 SoftwareSerial APMicroserial(0, 1); // rx, tx -> Arduino Pro Micro
 
-float lattitude, longitude; // data with float type is used for GPS sensor purposes
+float lat, lng; // data with float type is used for GPS sensor purposes
+String lattitude, longitude; // data with String type is used for GPS sensor purposes
 
 // Method: setup
 void setup() {
@@ -19,8 +20,10 @@ void loop() {
 // Method: sensor
 void sensor(){
   // dummy Data
-  lattitude = -3.621248;
-  longitude = 98.815738;
+  lat = -7.3364958;
+  lng = 112.6367014;
+  lattitude = String(lat);
+  longitude = String(lng);
 }
 
 // Method: internal_data
@@ -28,15 +31,15 @@ void internal_data(){
   // display data to the Arduino Pro Micro serial monitor
   Serial.println("Transmit serial data to Wemos D1 Mini...");
   delay(1000); // delay -> 1 second
-  Serial.println("lattitude : "+String(lattitude,6));
-  Serial.println("longitude : "+String(longitude,6));
+  Serial.println("lattitude : "+lattitude);
+  Serial.println("longitude : "+longitude);
   delay(1000); // delay -> 1 second
 }
 
 // Method: external_data
 void external_data(){
   // send data from Arduino Pro Micro to Wemos D1 Mini
-  Serial1.print(String(lattitude,6));
-  Serial1.print(String(longitude,6));
+  Serial1.print(lattitude);
+  Serial1.print(longitude);
   delay(1000); // delay -> 1 second
 }
