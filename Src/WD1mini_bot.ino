@@ -9,7 +9,7 @@ void setup() {
 
 // Method: loop
 void loop() {  
-  gpssensor(); // calling the gpsdata method
+  gpssensor(); // calling the gpssensor method
 }
 
 // Method: gpssensor
@@ -19,7 +19,7 @@ void gpssensor(){
   delay(2000); // delay -> 2 second 
   String location = ""; // this String data type is used to store location data
   while(maps.available() > 0){ // this loop is used to read the available location data from the serial object
-    location += char(maps.read()); // adds each sensor data reading into a data string named raw_data
+    location += char(maps.read()); // adds each sensor data reading into a data string named location
   }  
   Serial.println(location); // print location data on the serial monitor
   delay(1000); // delay -> 1 second 
