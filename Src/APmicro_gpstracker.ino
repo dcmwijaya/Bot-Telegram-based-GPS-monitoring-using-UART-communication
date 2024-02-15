@@ -1,12 +1,9 @@
-#include <SoftwareSerial.h> // calls a library called SoftwareSerial.h
-SoftwareSerial maps(0, 1); // rx, tx -> Arduino Pro Micro
-
 float lattitude, longitude; // data with float type is used for GPS sensor purposes
 
 // Method: setup
 void setup() {
   Serial.begin(9600); // start serial communication internally
-  Serial1.begin(9600); // start serial communication externally
+  Serial1.begin(115200); // start serial communication externally 
 }
 
 // Method: loop
@@ -36,7 +33,7 @@ void internal_data(){
 // Method: external_data
 void external_data(){
   // send data from Arduino Pro Micro to Wemos D1 Mini
-  Serial1.println(String(lattitude,6));
-  Serial1.println(String(longitude,6));
-  delay(1000); // delay -> 1 second 
+  Serial1.print(String(lattitude,6));
+  Serial1.print(String(longitude,6));
+  delay(1000); // delay -> 1 second
 }
