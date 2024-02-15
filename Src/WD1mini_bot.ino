@@ -6,7 +6,7 @@ String raw_data, location; // data with String type is used for GPS sensor purpo
 // Method: setup
 void setup() {
   Serial.begin(115200); // // start serial communication inside the Wemos D1 Mini
-  mcuSerial.begin(115200); // start serial communication externally to Arduino Pro Micro
+  mcuSerial.begin(115200); // start serial communication to Arduino Pro Micro
 }
 
 // Method: loop
