@@ -1,12 +1,12 @@
 #include <SoftwareSerial.h> // calls a library called SoftwareSerial.h
-SoftwareSerial WemosSerial(12, 13); // D6 As RX, D7 As TX -> Wemos D1 Mini
+SoftwareSerial mcuSerial(12, 13); // D6 As RX, D7 As TX -> Wemos D1 Mini
 
 String raw_data, location; // data with String type is used for GPS sensor purposes
 
 // Method: setup
 void setup() {
   Serial.begin(115200); // start serial communication internally
-  WemosSerial.begin(115200); // start serial communication externally  
+  mcuSerial.begin(115200); // start serial communication externally  
 }
 
 // Method: loop
@@ -16,10 +16,10 @@ void loop() {
 
 // Method: gpssensor
 void gpssensor(){
-  while(!WemosSerial.available()){ Serial.println("Failed to get sensor data, system tries to reconnect communication !!"); } // serial communication with the Arduino Pro Micro board failed
+  while(!mcuSerial.available()){ Serial.println("Failed to get sensor data, system tries to reconnect communication !!"); } // serial communication with the Arduino Pro Micro board failed
   raw_data = ""; // this String data type is used to store location data
-  while(WemosSerial.available() > 0){ // this loop is used to read the available location data from the serial object
-    raw_data += char(WemosSerial.read()); // adds each sensor data reading into a data string named raw_data
+  while(mcuSerial.available()){ // this loop is used to read the available location data from the serial object
+    raw_data += char(mcuSerial.read()); // adds each sensor data reading into a data string named raw_data
   }  
   location = raw_data.c_str(); // location variable is used to store string conversion data from raw_data
   Serial.println("Retrieve serial data from Arduino Pro Micro board..."); // display data to the Wemos D1 Mini serial monitor
