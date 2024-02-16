@@ -1,3 +1,4 @@
+// library initialization
 #include <SoftwareSerial.h> // calls a library called SoftwareSerial.h
 SoftwareSerial mcuSerial(12, 13); // D6 As RX, D7 As TX -> Wemos D1 Mini to Arduino Pro Micro
 
