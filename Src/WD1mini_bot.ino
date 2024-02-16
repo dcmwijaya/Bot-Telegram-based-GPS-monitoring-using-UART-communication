@@ -37,8 +37,8 @@ String getValue(String data, char separator, int index){ // there are 3 paramete
   int strIndex[] = {0, -1}; // variable with integer type to store two index values to be used as bounds when extracting substrings from the data string. Initially, strIndex[0] is set to 0, and strIndex[1] is set to -1
   int maxIndex = data.length()-1; // variable with integer type to store the upper limit of the index
  
-  for(int i=0; i<=maxIndex && found<=index; i++){
-    if(data.charAt(i)==separator || i==maxIndex){
+  for(int i=0; i<=maxIndex && found<=index; i++){ // loop to search data
+    if(data.charAt(i)==separator || i==maxIndex){ // if the character at index-i in the data string is equal to a separator character or index-i has reached the end of the string then
         found++;
         strIndex[0] = strIndex[1]+1;
         strIndex[1] = (i == maxIndex) ? i+1 : i;
