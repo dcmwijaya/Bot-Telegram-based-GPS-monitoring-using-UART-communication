@@ -31,6 +31,7 @@ void gpssensor(){
   delay(1000); // delay -> 1 second 
 }
 
+// function for data parsing
 String getValue(String data, char separator, int index){
   int found = 0;
   int strIndex[] = {0, -1};
