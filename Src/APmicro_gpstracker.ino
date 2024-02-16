@@ -33,7 +33,7 @@ void sensor(){
     latitude = String(lat, 6); // this string variable is to hold gps data -> latitude
     longitude = String(lng, 6); // this string variable is to hold gps data -> longitude
   }
-  lat = -7.3364958; lng = 112.6367014; latitude = String(lat, 6); longitude = String(lng, 6); // dummy Data
+  // lat = -7.3364958; lng = 112.6367014; latitude = String(lat, 6); longitude = String(lng, 6); // dummy Data
   view_data(); // calling the view_data method
   send_data(); // calling the send_data method
 }
