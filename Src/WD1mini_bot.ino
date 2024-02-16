@@ -39,9 +39,9 @@ String getValue(String data, char separator, int index){ // there are 3 paramete
  
   for(int i=0; i<=maxIndex && found<=index; i++){ // loop to search data
     if(data.charAt(i)==separator || i==maxIndex){ // if the character at index-i in the data string is equal to a separator character or index-i has reached the end of the string then
-        found++;
-        strIndex[0] = strIndex[1]+1;
-        strIndex[1] = (i == maxIndex) ? i+1 : i;
+        found++; // increases the number of values that have been found during iteration through the string
+        strIndex[0] = strIndex[1]+1; // 
+        strIndex[1] = (i == maxIndex) ? i+1 : i; // 
     }
   } 
 
