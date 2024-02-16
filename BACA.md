@@ -18,7 +18,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 | Driver | USB-Serial CH340 |
 | Protokol Komunikasi | • Universal Asynchronous Receiver-Transmitter (UART)<br>• MTProto |
 | Bahasa Pemrograman | C/C++ |
-| Pustaka Arduino | • TinyGPS++<br>• SoftwareSerial<br>• CTBot<br>• ArduinoJson |
+| Pustaka Arduino | • SoftwareSerial (bawaan)<br>• TinyGPS++<br>• CTBot<br>• ArduinoJson |
 | Sensor | GPS NEO6MV2 (x1) |
 | Komponen Lainnya | • Kabel Mikro USB - USB tipe A (x1)<br>• Kabel jumper (1 set)<br>• Adaptor DC 5V (x1) |
 
