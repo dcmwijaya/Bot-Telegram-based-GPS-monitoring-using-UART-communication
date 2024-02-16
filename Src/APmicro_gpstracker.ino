@@ -3,8 +3,8 @@
 
 // object initialization
 SoftwareSerial mcuSerial(0,1); // RXD, TXD pin -> Arduino Pro Micro to Wemos D1 Mini
-SoftwareSerial gpsSerial(2,3); // RXD, TXD pin -> Arduino Pro Micro to GPS Module Sensor
-TinyGPSPlus gps;
+SoftwareSerial gpsSerial(2,3); // D2 As RXD, D3 As TXD pin -> Arduino Pro Micro to GPS Module Sensor
+TinyGPSPlus gps; // Create an object with the name gps
 
 // variable initialization
 float lat, lng; // data with float type is used for GPS sensor purposes
