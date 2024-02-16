@@ -1,3 +1,4 @@
+// library initialization
 #include <SoftwareSerial.h> // calls a library called SoftwareSerial.h
 #include <TinyGPS++.h> // calls a library called TinyGPS++.h
 
