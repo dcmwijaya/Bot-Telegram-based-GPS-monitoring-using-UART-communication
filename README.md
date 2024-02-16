@@ -199,7 +199,7 @@ This project was created as an effort to increase security on personal belonging
 
 5. Also do it for bot image settings, bot descriptions, and so on according to your needs.<br><br>
 
-6. Copy ``` your telegram bot API token ``` -> then paste it into the ``` #define BOTtoken "YOUR_API_BOT_TOKEN" ``` section. 
+6. Copy ``` your telegram bot API token ``` -> then paste it into the ``` #define botToken "YOUR_API_BOT_TOKEN" ``` section. 
 
    <table><tr><td width="810">
       
