@@ -3,7 +3,6 @@
 #include <TinyGPS++.h> // calls a library called TinyGPS++.h
 
 // object initialization
-SoftwareSerial mcuSerial(0,1); // 0 As RXD pin, 1 As TXD pin -> Arduino Pro Micro to Wemos D1 Mini
 SoftwareSerial gpsSerial(2,3); // 2 As RXD pin, 3 As TXD pin -> Arduino Pro Micro to GPS Module Sensor
 TinyGPSPlus gps; // create an object with the name gps
 
@@ -15,7 +14,6 @@ String latitude, longitude; // data with String type is used for GPS sensor purp
 void setup() {
   Serial.begin(9600); // start serial communication inside the Arduino Pro Micro
   Serial1.begin(115200); // start serial communication to Wemos D1 Mini
-  mcuSerial.begin(115200); // start serial communication to Wemos D1 Mini
   gpsSerial.begin(9600); // start serial communication to GPS Module Sensor
 }
 
@@ -35,7 +33,7 @@ void sensor(){
     latitude = String(lat, 6); // this string variable is to hold gps data -> latitude
     longitude = String(lng, 6); // this string variable is to hold gps data -> longitude
   }
-//  lat = -7.3364958; lng = 112.6367014; latitude = String(lat, 6); longitude = String(lng, 6); // dummy Data
+  lat = -7.3364958; lng = 112.6367014; latitude = String(lat, 6); longitude = String(lng, 6); // dummy Data
   view_data(); // calling the view_data method
   send_data(); // calling the send_data method
 }
@@ -44,16 +42,14 @@ void sensor(){
 void view_data(){
   // display data to the Arduino Pro Micro serial monitor
   Serial.println("Transmit serial data to Wemos D1 Mini...");
-  delay(1000); // delay -> 1 second
-  Serial.println("latitude : " + latitude);
-  Serial.println("longitude : " + longitude);
+  delay(2000); // delay -> 2 second
+  Serial.println("latitude : " + latitude + "\nlongitude : " + longitude + "\n");
   delay(1000); // delay -> 1 second
 }
 
 // Method: send_data
 void send_data(){
   // send data from Arduino Pro Micro to Wemos D1 Mini
-  Serial1.println(latitude);
-  Serial1.println(longitude);
+  Serial1.println(latitude+","+longitude);
   delay(1000); // delay -> 1 second
 }
