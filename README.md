@@ -18,7 +18,7 @@ This project was created as an effort to increase security on personal belonging
 | Driver | USB-Serial CH340 |
 | Communications Protocol | • Universal Asynchronous Receiver-Transmitter (UART)<br>• MTProto |
 | Programming Language | C/C++ |
-| Arduino Library | • TinyGPS++<br>• SoftwareSerial<br>• CTBot |
+| Arduino Library | • TinyGPS++<br>• SoftwareSerial<br>• CTBot<br>• ArduinoJson |
 | Sensor | GPS NEO6MV2 (x1) |
 | Other Components | • Micro USB cable - USB type A (x1)<br>• Jumper cable (1 set)<br>• Adaptor DC 5V (x1) |
 
