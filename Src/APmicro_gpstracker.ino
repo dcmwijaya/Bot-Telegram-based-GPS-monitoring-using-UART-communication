@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h> // calls a library called SoftwareSerial.h
 #include <TinyGPS++.h> // calls a library called TinyGPS++.h
 
-// new object initialization
+// object initialization
 SoftwareSerial mcuSerial(0,1); // RXD, TXD pin -> Arduino Pro Micro to Wemos D1 Mini
 SoftwareSerial gpsSerial(2,3); // RXD, TXD pin -> Arduino Pro Micro to GPS Module Sensor
 TinyGPSPlus gps;
