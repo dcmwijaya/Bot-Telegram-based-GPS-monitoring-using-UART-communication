@@ -32,7 +32,7 @@ void gpssensor(){
 }
 
 // function for data parsing
-String getValue(String data, char separator, int index){
+String getValue(String data, char separator, int index){ // there are 3 parameters: data -> String, separator -> char, index -> int
   int found = 0;
   int strIndex[] = {0, -1};
   int maxIndex = data.length()-1;
