@@ -1,33 +1,47 @@
-// library initialization
 #include <SoftwareSerial.h> // calls a library called SoftwareSerial.h
-SoftwareSerial mcuSerial(12, 13); // D6 As RX, D7 As TX -> Wemos D1 Mini to Arduino Pro Micro
+#include <CTBot.h> // calls a library called CTBot.h
 
-String raw_data, latitude, longitude; // data with String type is used for GPS sensor purposes
+// object initialization
+SoftwareSerial mcuSerial(12, 13); // D6 As RX, D7 As TX -> Wemos D1 Mini to Arduino Pro Micro
+CTBot myBot; // constructor CTBot
+CTBotInlineKeyboard myKbd1, myKbd2; // custom inline keyboard object helper
+
+// variable initialization
+#define ssid "YOUR_WIFI_NAME" // ssid name
+#define password "YOUR_WIFI_PASSWORD" // ssid password
+#define botToken "YOUR_API_BOT_TOKEN" // telegram bot API token 
+#define gpsCheck "gpsCheck" // callback data sent when "Checking GPS" button is pressed
+String location, latitude, longitude; // data with String type is used for GPS sensor purposes
+String sendMsg1, sendMsg2; // data with String type is used for telegram bot purposes
+unsigned long previousMillis = 0; // will store last time telegram bot was updated
+const long interval = 1000; // interval for telegram bot service (milliseconds)
 
 // Method: setup
 void setup() {
   Serial.begin(115200); // start serial communication inside the Wemos D1 Mini
   mcuSerial.begin(115200); // start serial communication to Arduino Pro Micro
+  connectBot(); // calling the connectBot method
+  buttonBot(); // calling the buttonBot method
 }
 
 // Method: loop
 void loop() {  
   gpssensor(); // calling the gpssensor method
+  telegrambot(); // calling the telegrambot method
 }
 
 // Method: gpssensor
 void gpssensor(){
   while(!mcuSerial.available()){ Serial.println("Failed to get sensor data, system tries to reconnect communication !!"); } // serial communication with the Arduino Pro Micro board failed
-  raw_data = ""; // this String data type is used to store data obtained from serial communication
+  location = ""; // this String data type is used to store data obtained from serial communication
   while(mcuSerial.available()){ // this loop is used to read the serial communication data from the Arduino Pro Micro
-    raw_data += char(mcuSerial.read()); // adds each sensor data reading into a data string named raw_data
+    location += char(mcuSerial.read()); // adds each sensor data reading into a data string named location
   }  
-  latitude = getValue(raw_data, ' ', 0); // this variable is used to store latitude data
-  longitude = getValue(raw_data, ' ', 1); // this variable is used to store longitude data
+  latitude = getValue(location, ',', 0); // this variable is used to store latitude data
+  longitude = getValue(location, ',', 1); // this variable is used to store longitude data
   Serial.println("Retrieve serial data from Arduino Pro Micro board..."); // display data to the Wemos D1 Mini serial monitor
-  delay(2000); // delay -> 2 second 
-  Serial.println(latitude); // print latitude data on the serial monitor
-  Serial.println(longitude); // longitude data on the serial monitor
+  delay(2000); // delay -> 2 second
+  Serial.println("latitude : " + latitude + "\nlongitude : " + longitude + "\n"); // print latitude & longitude data on the serial monitor
   delay(1000); // delay -> 1 second 
 }
 
@@ -49,4 +63,53 @@ String getValue(String data, char separator, int index){ // there are 3 paramete
   // 1. checks whether the value found is greater than the index. If this condition is true, then the function will return the substring data starting from strIndex[0] to strIndex[1]
   // 2. if the condition is false (meaning the found value is not greater than the index), then the function will return an empty string meaning no value was found at the requested index
   return found>index ? data.substring(strIndex[0], strIndex[1]) : "";
+}
+
+// Method: connectBot
+void connectBot(){
+  myBot.wifiConnect(ssid, password); // connect the ESP8266 to the desired ssid
+  myBot.setTelegramToken(botToken); // set the telegram bot token
+  myBot.setMaxConnectionRetries(5); // try 15 times to connect to the specified ssid
+}
+
+// Method: buttonBot
+void buttonBot(){
+  myKbd1.addButton("🌍 Checking GPS", gpsCheck, CTBotKeyboardButtonQuery); // checking gps button
+  myKbd2.addButton("🔍 More Info", "https://www.google.com/maps/@location", CTBotKeyboardButtonURL); // more info button
+}
+
+// Method: telegrambot
+void telegrambot(){
+  unsigned long currentMillis = millis(); // to save the current time
+
+  if (currentMillis - previousMillis >= interval) { // if the current time minus the previous time is greater than equal to the interval then
+    previousMillis = currentMillis; // previous time is the same as the current time
+    
+    TBMessage msg; // this variable to store telegram message data
+  
+    if(myBot.getNewMessage(msg)){ // if there is an incoming message...    
+      if(msg.messageType == CTBotMessageText){ // check what kind of message I received
+        if(msg.text.equalsIgnoreCase("/start")){ // start
+          sendMsg1 = "🙋🏻‍♂️ Hai @" + msg.sender.username + " 👋👋\nWelcome to Personal GPS Bot.\n\n";
+          sendMsg1 += "‼️ Please input the secret code\n.................................. *(9 Characters)";
+          myBot.sendMessage(msg.sender.id, sendMsg1);
+        } 
+        else if(msg.text.equalsIgnoreCase("MYGPS2024")){ // code validation
+          sendMsg1 = "✅ Code validated successfully";
+          myBot.sendMessage(msg.sender.id, sendMsg1);
+          sendMsg2 = "To view the item's position via satellite, please click the button below 👇👇";
+          myBot.sendMessage(msg.sender.id, sendMsg2, myKbd1);
+        }
+      }
+      else if(msg.messageType == CTBotMessageQuery){ // received a callback query message
+        if(msg.callbackQueryData.equals(gpsCheck)){ // gps check
+          sendMsg1 = "------------------------------------------------------------\n🌍 ITEM POSITION";
+          sendMsg1 += "\n------------------------------------------------------------\n\n";
+          sendMsg1 += "🗺️ Latitude : "+latitude+"\n\n🗺️ Longitude : "+longitude;
+          sendMsg1 += "\nTo see the specific position of the object, please press the button below.";
+          myBot.sendMessage(msg.sender.id, sendMsg1, myKbd2);
+        }
+      }
+    }
+  }
 }
