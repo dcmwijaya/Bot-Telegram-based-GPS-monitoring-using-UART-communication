@@ -206,7 +206,7 @@ This project was created as an effort to increase security on personal belonging
    For example :
 
    ```
-   #define BOTtoken "2006772150:AAE6Fdjk3KbiySkzV6CLbd6ClJDzgTfJ5y0"
+   #define botToken "2006772150:AAE6Fdjk3KbiySkzV6CLbd6ClJDzgTfJ5y0"
    ```
    
    </td></tr></table><br><br>
