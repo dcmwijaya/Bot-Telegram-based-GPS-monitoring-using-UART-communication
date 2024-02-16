@@ -2,9 +2,9 @@
 #include <TinyGPS++.h> // calls a library called TinyGPS++.h
 
 // object initialization
-SoftwareSerial mcuSerial(0,1); // RXD, TXD pin -> Arduino Pro Micro to Wemos D1 Mini
-SoftwareSerial gpsSerial(2,3); // D2 As RXD, D3 As TXD pin -> Arduino Pro Micro to GPS Module Sensor
-TinyGPSPlus gps; // Create an object with the name gps
+SoftwareSerial mcuSerial(0,1); // 0 As RXD pin, 1 As TXD pin -> Arduino Pro Micro to Wemos D1 Mini
+SoftwareSerial gpsSerial(2,3); // 2 As RXD pin, 3 As TXD pin -> Arduino Pro Micro to GPS Module Sensor
+TinyGPSPlus gps; // create an object with the name gps
 
 // variable initialization
 float lat, lng; // data with float type is used for GPS sensor purposes
