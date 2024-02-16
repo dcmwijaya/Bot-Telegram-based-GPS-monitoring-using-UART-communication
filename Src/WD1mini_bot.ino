@@ -33,7 +33,7 @@ void gpssensor(){
 
 // function for data parsing
 String getValue(String data, char separator, int index){ // there are 3 parameters: data -> string, separator -> character, index -> integer
-  int found = 0;
+  int found = 0; // variable with integer type to hold found data
   int strIndex[] = {0, -1};
   int maxIndex = data.length()-1;
  
@@ -46,7 +46,7 @@ String getValue(String data, char separator, int index){ // there are 3 paramete
   } 
 
   // returns a value based on the condition:
-  // 1. checks whether the value found is greater than the index. If this condition is true, then the function will return the substring data starting from strIndex[0] to strIndex[1].
-  // 2. if the condition is false (meaning the found value is not greater than the index), then the function will return an empty string meaning no value was found at the requested index.
+  // 1. checks whether the value found is greater than the index. If this condition is true, then the function will return the substring data starting from strIndex[0] to strIndex[1]
+  // 2. if the condition is false (meaning the found value is not greater than the index), then the function will return an empty string meaning no value was found at the requested index
   return found>index ? data.substring(strIndex[0], strIndex[1]) : "";
 }
