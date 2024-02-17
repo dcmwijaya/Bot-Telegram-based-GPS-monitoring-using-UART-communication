@@ -4,7 +4,7 @@
 ![Project](https://img.shields.io/badge/Project-Arduino-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
 # Telegram-Bot-based-GPS-monitoring-with-UART-communication
-Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang pribadi. Posisi barang dapat dipantau setiap saat melalui bot telegram, sehingga barang tidak akan mudah dicuri. Jika seseorang kehilangan barang, selama GPS masih terpasang dan dapat berfungsi dengan baik, maka posisinya akan segera terlacak. Arduino Pro Micro dalam proyek ini bertugas sebagai penampung data koordinat. Data yang ditampung kemudian dikirimkan ke Wemos D1 Mini melalui UART. Data yang diterima oleh Wemos D1 Mini melalui UART inilah yang disebut data mentah. Data mentah ini nantinya akan diolah menjadi data yang berguna untuk keperluan Bot Telegram. Bot Telegram hanya akan merespon pengguna jika ada interaksi.
+Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang pribadi. Posisi barang dapat dipantau setiap saat melalui bot telegram, sehingga barang tidak akan mudah dicuri. Jika seseorang kehilangan barang, selama GPS masih terpasang dan dapat berfungsi dengan baik, maka posisinya akan segera terlacak. Arduino Pro Micro dalam proyek ini tugasnya untuk menampung data koordinat. Data yang ditampung kemudian dikirimkan ke Wemos D1 Mini melalui UART. Data yang diterima oleh Wemos D1 Mini melalui UART inilah yang disebut data mentah. Data mentah ini nantinya akan diolah menjadi data yang berguna untuk keperluan Bot Telegram. Bot Telegram hanya akan merespon pengguna jika ada interaksi.
 
 <br><br>
 
