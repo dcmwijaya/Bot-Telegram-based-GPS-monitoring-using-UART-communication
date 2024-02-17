@@ -4,12 +4,15 @@
 // object initialization
 SoftwareSerial mcuSerial(12, 13); // D6 As RX, D7 As TX -> Wemos D1 Mini to Arduino Pro Micro
 CTBot myBot; // constructor CTBot
-CTBotInlineKeyboard myKbd1, myKbd2; // custom inline keyboard object helper
+CTBotInlineKeyboard myKbd; // custom inline keyboard object helper
 
 // variable initialization
-#define ssid "YOUR_WIFI_NAME" // ssid name
-#define password "YOUR_WIFI_PASSWORD" // ssid password
-#define botToken "YOUR_API_BOT_TOKEN" // telegram bot API token 
+//#define ssid "YOUR_WIFI_NAME" // ssid name
+//#define password "YOUR_WIFI_PASSWORD" // ssid password
+//#define botToken "YOUR_API_BOT_TOKEN" // telegram bot API token 
+#define ssid "WIJAYA" // ssid name
+#define password "IsW4ri71!!" // ssid password
+#define botToken "6288172021:AAH_p6-8wpRaT0I-xHCEO15izX9h2GtY4JY" // telegram bot API token 
 #define gpsCheck "gpsCheck" // callback data sent when "Checking GPS" button is pressed
 String location, latitude, longitude; // data with String type is used for GPS sensor purposes
 String sendMsg1, sendMsg2; // data with String type is used for telegram bot purposes
@@ -74,8 +77,7 @@ void connectBot(){
 
 // Method: buttonBot
 void buttonBot(){
-  myKbd1.addButton("🌍 Checking GPS", gpsCheck, CTBotKeyboardButtonQuery); // checking gps button
-  myKbd2.addButton("🔍 More Info", "https://www.google.com/maps/@location", CTBotKeyboardButtonURL); // more info button
+  myKbd.addButton("🌍 Checking GPS", gpsCheck, CTBotKeyboardButtonQuery); // checking gps button
 }
 
 // Method: telegrambot
@@ -94,20 +96,27 @@ void telegrambot(){
           sendMsg1 += "‼️ Please input the secret code\n.................................. *(9 Characters)";
           myBot.sendMessage(msg.sender.id, sendMsg1);
         } 
-        else if(msg.text.equalsIgnoreCase("MYGPS2024")){ // code validation
+        else if(msg.text.equalsIgnoreCase("MYGPS2024")){ // code validated successfully
           sendMsg1 = "✅ Code validated successfully";
           myBot.sendMessage(msg.sender.id, sendMsg1);
           sendMsg2 = "To view the item's position via satellite, please click the button below 👇👇";
-          myBot.sendMessage(msg.sender.id, sendMsg2, myKbd1);
+          myBot.sendMessage(msg.sender.id, sendMsg2, myKbd);
+        }
+        else { // command not found
+          sendMsg1 = "❌ Command not found";
+          myBot.sendMessage(msg.sender.id, sendMsg1);
         }
       }
       else if(msg.messageType == CTBotMessageQuery){ // received a callback query message
         if(msg.callbackQueryData.equals(gpsCheck)){ // gps check
-          sendMsg1 = "------------------------------------------------------------\n🌍 ITEM POSITION";
-          sendMsg1 += "\n------------------------------------------------------------\n\n";
-          sendMsg1 += "🗺️ Latitude : "+latitude+"\n\n🗺️ Longitude : "+longitude;
-          sendMsg1 += "\nTo see the specific position of the object, please press the button below.";
-          myBot.sendMessage(msg.sender.id, sendMsg1, myKbd2);
+          sendMsg1 = "◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎";
+          sendMsg1 += "\n◎◎◎◎       🌍 ITEM POSITION       ◎◎◎◎";
+          sendMsg1 += "\n◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎\n\n";
+          sendMsg1 += "🗺️ Latitude :  "+latitude+"\n\n🗺️ Longitude :  "+longitude;
+          sendMsg1 += "\n\nTo see the specific position of the object, please click the link below :";
+          sendMsg1 += "\n\n◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎\nhttps://www.google.com/maps/@"+location;
+          sendMsg1 += "◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎";
+          myBot.sendMessage(msg.sender.id, sendMsg1);
         }
       }
     }
