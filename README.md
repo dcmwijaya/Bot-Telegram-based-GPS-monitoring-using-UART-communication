@@ -232,12 +232,19 @@ Via Telegram: <a href="https://t.me/personalgps_bot">@personalgps_bot</a>
 ## Highlights
 <table>
 <tr>
-<th width="420">GPS Device</th>
-<th width="420">Telegram Bot</th>
+<th width="840">GPS Device</th>
 </tr>
 <tr>
 <td><img src="" alt="gps_device"></td>
-<td><img src="" alt="telegram_bot"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th width="840" colspan="2">Telegram Bot</th>
+</tr>
+<tr>
+<td width="420"><img src="https://github.com/devancakra/Arduino-Pro-Micro-based-GPS-Monitoring-for-Personal-Items-with-Telegram-Bot/assets/54527592/675c126a-b4b4-4ed2-a1a7-8fe40e7fcc63" alt="telegram_bot1"></td>
+<td width="420"><img src="https://github.com/devancakra/Arduino-Pro-Micro-based-GPS-Monitoring-for-Personal-Items-with-Telegram-Bot/assets/54527592/861fdb3b-f822-4b6c-861a-d63118d84511" alt="telegram_bot2"></td>
 </tr>
 </table>
 
