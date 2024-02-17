@@ -20,7 +20,7 @@ This project was created as an effort to increase security on personal belonging
 | Programming Language | C/C++ |
 | Arduino Library | • SoftwareSerial (default)<br>• TinyGPS++<br>• CTBot<br>• ArduinoJson |
 | Sensor | GPS NEO6MV2 (x1) |
-| Other Components | • Micro USB cable - USB type A (x1)<br>• Jumper cable (1 set)<br>• Li-ion battery 18650 (x1)<br>• 1-Slot series battery holder (x1)<br>• Micro USB cable - 2 pin JST (x1) |
+| Other Components | • Micro USB cable - USB type A (x1)<br>• Jumper cable (1 set)<br>• Li-ion battery 18650 5V (x1)<br>• 1-Slot battery holder (x1)<br>• Micro USB cable - 2 pin JST (x1) |
 
 <br><br>
 
