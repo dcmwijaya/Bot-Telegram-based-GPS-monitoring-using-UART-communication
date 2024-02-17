@@ -7,9 +7,9 @@ CTBot myBot; // constructor CTBot
 CTBotInlineKeyboard myKbd; // custom inline keyboard object helper
 
 // variable initialization
-//#define ssid "YOUR_WIFI_NAME" // ssid name
-//#define password "YOUR_WIFI_PASSWORD" // ssid password
-//#define botToken "YOUR_API_BOT_TOKEN" // telegram bot API token 
+#define ssid "YOUR_WIFI_NAME" // ssid name
+#define password "YOUR_WIFI_PASSWORD" // ssid password
+#define botToken "YOUR_API_BOT_TOKEN" // telegram bot API token 
 #define gpsCheck "gpsCheck" // callback data sent when "Checking GPS" button is pressed
 String location, latitude, longitude; // data with String type is used for GPS sensor purposes
 String sendMsg1, sendMsg2; // data with String type is used for telegram bot purposes
