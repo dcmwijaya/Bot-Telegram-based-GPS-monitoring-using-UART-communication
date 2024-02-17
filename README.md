@@ -54,7 +54,7 @@ This project was created as an effort to increase security on personal belonging
 <th width="420">Pictorial Diagram</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Arduino-Pro-Micro-based-GPS-Monitoring-for-Personal-Items-with-Telegram-Bot/assets/54527592/586d6f7d-764b-44a7-9121-cfd8e4d45f57" alt="Block-Diagram"></td>
+<td><img src="https://github.com/devancakra/Arduino-Pro-Micro-based-GPS-Monitoring-for-Personal-Items-with-Telegram-Bot/assets/54527592/4762da69-bb7d-463c-a718-d2c72c9b42e1" alt="Block-Diagram"></td>
 <td><img src="" alt="Pictorial-Diagram"></td>
 </tr>
 </table>
