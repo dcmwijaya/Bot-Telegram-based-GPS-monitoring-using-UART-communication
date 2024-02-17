@@ -4,7 +4,7 @@
 ![Project](https://img.shields.io/badge/Project-Arduino-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
 # Telegram-Bot-based-GPS-monitoring-with-UART-communication
-This project was created as an effort to increase security on personal belongings. The position of the items can be monitored at any time through the telegram bot, so that the items will not be easily stolen. If someone loses an item, as long as the GPS is still installed and can function properly, then its position will be tracked immediately. Arduino Pro Micro in this project serves as a placeholder for coordinate data. The data collected is then sent to the Wemos D1 Mini via UART. The data received by the Wemos D1 Mini via UART is called raw data. This raw data will later be processed into data that is useful for Telegram Bot purposes. Telegram bots will only respond to users if there is interaction.
+This project was created as an effort to increase security on personal belongings. The position of the items can be monitored at any time through the telegram bot, so that the items will not be easily stolen. If someone loses an item, as long as the GPS is still installed and can function properly, then its position will be tracked immediately. In this project, the Arduino Pro Micro is tasked with holding the coordinate data. The data collected is then sent to the Wemos D1 Mini via UART. The data received by the Wemos D1 Mini via UART is called raw data. This raw data will later be processed into data that is useful for Telegram Bot purposes. Telegram bots will only respond to users if there is interaction.
 
 <br><br>
 
