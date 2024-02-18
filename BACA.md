@@ -55,7 +55,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/Arduino-Pro-Micro-based-GPS-Monitoring-for-Personal-Items-with-Telegram-Bot/assets/54527592/4762da69-bb7d-463c-a718-d2c72c9b42e1" alt="Block-Diagram"></td>
-<td><img src="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/assets/54527592/6284bcde-d6e0-4142-9378-a007b207bb34" alt="Pictorial-Diagram"></td>
+<td><img src=""></td>
 </tr>
 </table>
 <table>
@@ -63,7 +63,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 <th width="840">Pengkabelan</th>
 </tr>
 <tr>
-<td><img width="840" src="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/assets/54527592/6ab37ae9-b7ac-4b5c-81e4-45a39ba69f06" alt="Wiring"></td>
+<td><img width="840" src="" alt="Wiring"></td>
 </tr>
 </table>
 
