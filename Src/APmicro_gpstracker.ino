@@ -13,7 +13,7 @@ String latitude, longitude; // data with String type is used for GPS sensor purp
 // Method: setup
 void setup() {
   Serial.begin(9600); // start serial communication inside the Arduino Pro Micro
-  Serial1.begin(115200); // start serial communication to Wemos D1 Mini
+  Serial1.begin(9600); // start serial communication to Wemos D1 Mini
   gpsSerial.begin(9600); // start serial communication to GPS Module Sensor
 }
 
