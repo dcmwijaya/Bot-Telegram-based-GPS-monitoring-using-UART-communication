@@ -128,6 +128,10 @@ The ``` Arduino Pro Micro ``` has several pins that can support ``` Software Ser
       <td>16</td>
       <td>RX and TX</td>
    </tr>
+   <tr>
+      <td>14</td>
+      <td>RX and TX</td>
+   </tr>
 </table>
 
 <br><br>
