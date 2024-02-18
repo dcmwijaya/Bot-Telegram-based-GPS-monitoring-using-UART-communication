@@ -85,46 +85,39 @@ The ``` Arduino Pro Micro ``` has several pins that can support ``` Software Ser
 
 <table width="840">
    <tr>
-      <th width="210">Pin Name</th>
-      <th width="210">Role</th>
-      <th width="210">Advantages</th>
-      <th width="210">Disadvantages</th>
+      <th width="280">Pin Name</th>
+      <th width="280">Advantages</th>
+      <th width="280">Disadvantages</th>
    </tr>
    <tr>
-      <td>2 - 3</td>
-      <td>RX - TX</td>
+      <td>2</td>
       <td>Can only transfer data</td>
       <td>Cannot receive data</td>
    </tr>
    <tr>
-      <td>4 - 5</td>
-      <td>RX - TX</td>
+      <td>3</td>
       <td>Can only transfer data</td>
       <td>Cannot receive data</td>
    </tr>
    <tr>
-      <td>6 - 7</td>
-      <td>RX - TX</td>
+      <td>4</td>
       <td>Can only transfer data</td>
       <td>Cannot receive data</td>
    </tr>
    <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
+      <td>5</td>
+      <td>Can only transfer data</td>
+      <td>Cannot receive data</td>
    </tr>
    <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
+      <td>6</td>
+      <td>Can only transfer data</td>
+      <td>Cannot receive data</td>
    </tr>
    <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
+      <td>7</td>
+      <td>Can only transfer data</td>
+      <td>Cannot receive data</td>
    </tr>
 </table>
 
