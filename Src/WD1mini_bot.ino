@@ -39,10 +39,9 @@ void gpssensor(){
   }  
   latitude = getValue(location, ',', 0); // this variable is used to store latitude data
   longitude = getValue(location, ',', 1); // this variable is used to store longitude data
-  Serial.println("Retrieve serial data from Arduino Pro Micro board..."); // display data to the Wemos D1 Mini serial monitor
-  delay(2000); // delay -> 2 second
-  Serial.println("latitude : " + latitude + "\nlongitude : " + longitude + "\n"); // print latitude & longitude data on the serial monitor
   delay(1000); // delay -> 1 second 
+  Serial.println("Retrieve serial data from Arduino Pro Micro board..."); // display data to the Wemos D1 Mini serial monitor
+  Serial.println("latitude : " + latitude + "\nlongitude : " + longitude + "\n"); // print latitude & longitude data on the serial monitor
 }
 
 // function for data parsing
