@@ -7,7 +7,7 @@ SoftwareSerial gpsSerial(2,3); // 2 As RXD pin, 3 As TXD pin -> Arduino Pro Micr
 TinyGPSPlus gps; // create an object with the name gps
 
 // variable initialization
-float lat, lng; // data with float type is used for GPS sensor purposes
+double lat, lng; // data with double type is used for GPS sensor purposes
 String latitude, longitude; // data with String type is used for GPS sensor purposes
 
 // Method: setup
@@ -24,15 +24,15 @@ void loop() {
 
 // Method: sensor
 void sensor(){
-  while(gpsSerial.available()){ // if there is serial communication from the GPS sensor then
-    gps.encode(gpsSerial.read()); // reading GPS data
-    if (gps.location.isUpdated()){ // if the GPS location is updated then
-      lat = (gps.location.lat()); // this float variable is to hold gps data -> latitude
-      lng = (gps.location.lng()); // this float variable is to hold gps data -> longitude
-    }
-    latitude = String(lat, 6); // this string variable is to hold gps data -> latitude
-    longitude = String(lng, 6); // this string variable is to hold gps data -> longitude
+  while (gpsSerial.available() > 0) // if there is serial communication from the GPS sensor then
+  gps.encode(gpsSerial.read()); // reading GPS data
+  if (gps.location.isValid()){ // if the GPS location is valid then
+    lat = (gps.location.lat()); // this float variable is to hold gps data -> latitude
+    lng = (gps.location.lng()); // this float variable is to hold gps data -> longitude
   }
+  latitude = String(lat, 6); // this string variable is to hold gps data -> latitude
+  longitude = String(lng, 6); // this string variable is to hold gps data -> longitude
+  
   // lat = -7.3364958; lng = 112.6367014; latitude = String(lat, 6); longitude = String(lng, 6); // dummy Data
   view_data(); // calling the view_data method
   send_data(); // calling the send_data method
