@@ -53,5 +53,4 @@ void view_data(){
 void send_data(){
   // send data from Arduino Pro Micro to Wemos D1 Mini
   Serial1.println(latitude+","+longitude);
-  delay(5000); // delay -> 5 second
 }
