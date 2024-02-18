@@ -155,7 +155,7 @@ Setiap papan pengembangan biasanya memiliki pin ``` TX ``` dan ``` RX ```. Pin i
    </tr>
    <tr>
       <td>D7</td>
-      <td>Hanya RX</td>
+      <td>RX dan TX</td>
    </tr>
    <tr>
       <td>D8</td>
