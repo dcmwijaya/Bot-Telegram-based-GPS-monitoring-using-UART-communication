@@ -89,30 +89,6 @@ Setiap papan pengembangan biasanya memiliki pin ``` TX ``` dan ``` RX ```. Pin i
       <th width="420">Mendukung</th>
    </tr>
    <tr>
-      <td>2</td>
-      <td>Hanya TX</td>
-   </tr>
-   <tr>
-      <td>3</td>
-      <td>Hanya TX</td>
-   </tr>
-   <tr>
-      <td>4</td>
-      <td>Hanya TX</td>
-   </tr>
-   <tr>
-      <td>5</td>
-      <td>Hanya TX</td>
-   </tr>
-   <tr>
-      <td>6</td>
-      <td>Hanya TX</td>
-   </tr>
-   <tr>
-      <td>7</td>
-      <td>Hanya TX</td>
-   </tr>
-   <tr>
       <td>8</td>
       <td>RX dan TX</td>
    </tr>
@@ -135,6 +111,10 @@ Setiap papan pengembangan biasanya memiliki pin ``` TX ``` dan ``` RX ```. Pin i
    <tr>
       <td>15</td>
       <td>RX dan TX</td>
+   </tr>
+   <tr>
+      <td>Pin lainnya</td>
+      <td>Hanya TX</td>
    </tr>
 </table><br><br>
 
