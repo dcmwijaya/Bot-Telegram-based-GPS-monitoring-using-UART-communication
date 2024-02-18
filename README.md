@@ -79,9 +79,9 @@ In general, we can make a device communicate with another device. Communication 
 
 <strong>2. Software Serial Communication</strong>
 
-Each development board usually has ``` TX ``` and ``` RX ``` pins. These pins usually vary greatly in number, sometimes there are few, sometimes there are many. So if we want to connect many development boards at once, we cannot use ``` Hardware Serial ```, so what is needed is ``` Software Serial ```. This ``` Software Serial ``` is used to overcome the problem of the ``` limited number of TX pins and RX pins ``` on a development board. To communicate with serial software it is quite easy, namely by using certain ``` Digital Pins ``` as a ``` substitute for TX pins and RX pins ```.<br><br>
+Each development board usually has ``` TX ``` and ``` RX ``` pins. These pins usually vary greatly in number, sometimes there are few, sometimes there are many. So if we want to connect many development boards at once, we cannot use ``` Hardware Serial ```, so what is needed is ``` Software Serial ```. This ``` Software Serial ``` is used to overcome the problem of the ``` limited number of TX pins and RX pins ``` on a development board. To communicate with ``` Serial Software ``` it is quite easy, namely by using certain ``` Digital Pins ``` as a ``` substitute for TX pins and RX pins ```.<br><br>
 
-The ``` Arduino Pro Micro ``` has several pins that can support ``` Software Serial ``` which include:
+The ``` Arduino Pro Micro ``` has several pins that can support ``` Software Serial ``` which include :
 
 <table width="840">
    <tr>
