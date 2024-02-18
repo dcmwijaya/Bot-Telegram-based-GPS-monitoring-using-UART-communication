@@ -63,7 +63,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 <th width="840">Pengkabelan</th>
 </tr>
 <tr>
-<td><img width="840" src="" alt="Wiring"></td>
+<td><img width="840" src="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/assets/54527592/5c7888bf-721f-45e3-b549-f8b69e915171" alt="Wiring"></td>
 </tr>
 </table>
 
