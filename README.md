@@ -110,14 +110,14 @@ The ``` Arduino Pro Micro ``` has several pins that can support ``` Software Ser
       <td>Cannot receive data</td>
    </tr>
    <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
+      <td>6</td>
+      <td>Can only transfer data</td>
+      <td>Cannot receive data</td>
    </tr>
    <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
+      <td>7</td>
+      <td>Can only transfer data</td>
+      <td>Cannot receive data</td>
    </tr>
    <tr>
       <td>Coming Soon</td>
