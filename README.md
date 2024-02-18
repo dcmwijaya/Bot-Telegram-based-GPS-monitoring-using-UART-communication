@@ -85,39 +85,36 @@ The ``` Arduino Pro Micro ``` has several pins that can support ``` Software Ser
 
 <table width="840">
    <tr>
-      <th width="280">Pin Name</th>
-      <th width="280">Advantages</th>
-      <th width="280">Disadvantages</th>
+      <th width="420">Pin Name</th>
+      <th width="420">Support</th>
    </tr>
    <tr>
       <td>2</td>
-      <td>Can only transfer data</td>
-      <td>Cannot receive data</td>
+      <td>TX</td>
    </tr>
    <tr>
       <td>3</td>
-      <td>Can only transfer data</td>
-      <td>Cannot receive data</td>
+      <td>TX</td>
    </tr>
    <tr>
       <td>4</td>
-      <td>Can only transfer data</td>
-      <td>Cannot receive data</td>
+      <td>TX</td>
    </tr>
    <tr>
       <td>5</td>
-      <td>Can only transfer data</td>
-      <td>Cannot receive data</td>
+      <td>TX</td>
    </tr>
    <tr>
       <td>6</td>
-      <td>Can only transfer data</td>
-      <td>Cannot receive data</td>
+      <td>TX</td>
    </tr>
    <tr>
       <td>7</td>
-      <td>Can only transfer data</td>
-      <td>Cannot receive data</td>
+      <td>TX</td>
+   </tr>
+   <tr>
+      <td>8</td>
+      <td>RX</td>
    </tr>
 </table>
 
