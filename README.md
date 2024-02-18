@@ -114,6 +114,10 @@ The ``` Arduino Pro Micro ``` has several pins that can support ``` Software Ser
    </tr>
    <tr>
       <td>8</td>
+      <td>RX and TX</td>
+   </tr>
+   <tr>
+      <td>9</td>
       <td>RX</td>
    </tr>
 </table>
