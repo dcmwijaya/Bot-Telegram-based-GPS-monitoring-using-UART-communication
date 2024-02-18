@@ -112,13 +112,16 @@ The ``` Arduino Pro Micro ``` has several pins that can support ``` Software Ser
       <td>Coming Soon</td>
       <td>Coming Soon</td>
       <td>Coming Soon</td>
-   </tr>
-   <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
       <td>Coming Soon</td>
    </tr>
    <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
       <td>Coming Soon</td>
       <td>Coming Soon</td>
       <td>Coming Soon</td>
