@@ -79,7 +79,7 @@ Secara umum, kita bisa membuat suatu perangkat yang dapat berkomunikasi dengan p
 
 <strong>2. Komunikasi Software Serial</strong>
 
-Setiap papan pengembangan biasanya memiliki pin ``` TX ``` dan ``` RX ```. Pin ini biasanya sangat bervariasi dalam jumlahnya, kadang ada sedikit, kadang ada banyak. Jadi jika kita ingin menghubungkan banyak papan pengembangan sekaligus, maka kita tidak bisa menggunakan ``` Hardware Serial ```, sehingga yang dibutuhkan adalah ``` Software Serial ```. ``` Software Serial ``` ini digunakan untuk mengatasi masalah ``` terbatasnya jumlah pin TX dan pin RX ``` pada development board. Untuk berkomunikasi dengan ``` Software Serial ``` ini cukup mudah, yaitu dengan menggunakan ``` Pin Digital ``` tertentu sebagai ``` pengganti pin TX dan pin RX ```.<br><br>
+Setiap papan pengembangan biasanya memiliki pin ``` TX ``` dan ``` RX ```. Pin ini biasanya sangat bervariasi dalam jumlahnya, kadang ada sedikit, kadang ada banyak. Jadi jika kita ingin menghubungkan banyak papan pengembangan sekaligus, maka kita tidak bisa menggunakan ``` Hardware Serial ```, sehingga yang dibutuhkan adalah ``` Software Serial ```. ``` Software Serial ``` ini digunakan untuk mengatasi masalah ``` terbatasnya jumlah pin TX dan pin RX ``` pada papan pengembangan. Untuk berkomunikasi dengan ``` Software Serial ``` ini cukup mudah, yaitu dengan menggunakan ``` Pin Digital ``` tertentu sebagai ``` pengganti pin TX dan pin RX ```.<br><br>
 
 ``` Arduino Pro Micro ``` memiliki beberapa pin yang dapat mendukung ``` Software Serial ``` yaitu meliputi :
 
