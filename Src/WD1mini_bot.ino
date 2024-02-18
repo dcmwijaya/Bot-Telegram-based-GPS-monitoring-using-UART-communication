@@ -18,8 +18,8 @@ const long interval = 1000; // interval for telegram bot service (milliseconds)
 
 // Method: setup
 void setup() {
-  Serial.begin(115200); // start serial communication inside the Wemos D1 Mini
-  mcuSerial.begin(115200); // start serial communication to Arduino Pro Micro
+  Serial.begin(9600); // start serial communication inside the Wemos D1 Mini
+  mcuSerial.begin(9600); // start serial communication to Arduino Pro Micro
   connectBot(); // calling the connectBot method
   buttonBot(); // calling the buttonBot method
 }
