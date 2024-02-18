@@ -69,6 +69,49 @@ This project was created as an effort to increase security on personal belonging
 
 <br><br>
 
+## Basic Knowledge
+
+In general, we can make a device communicate with another device. Communication that is often used is using ``` Serial Communication ```. There are two kinds of serial communication, namely ``` Hardware Serial ``` and ``` Software Serial ```.<br><br>
+
+<strong>1. Hardware Serial Communication</strong>
+
+``` Hardware serial communication ``` can be done by connecting the ``` TX ``` and ``` RX ``` pins ``` crosswise ``` on each development board, for example: ``` RX-TX ```, then ``` TX-RX ```. The ``` TX ``` pin is for ``` sending data ```, while the ``` RX ``` pin is for ``` receiving data ```.<br><br>
+
+<strong>2. Software Serial Communication</strong>
+
+Each development board usually has ``` TX ``` and ``` RX ``` pins. These pins usually vary greatly in number, sometimes there are few, sometimes there are many. So if we want to connect many development boards at once, we cannot use ``` Hardware Serial ```, so what is needed is ``` Software Serial ```. This ``` Software Serial ``` is used to overcome the problem of the ``` limited number of TX pins and RX pins ``` on a development board. To communicate with serial software it is quite easy, namely by using certain ``` Digital Pins ``` as a ``` substitute for TX pins and RX pins ```.<br><br>
+
+The ``` Arduino Pro Micro ``` has several pins that can support ``` Software Serial ``` which include:
+
+<table width="840">
+   <tr>
+      <th width="420">Pin</th>
+      <th width="420">Support</th>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+</table>
+
+<br><br>
+
 ## Arduino IDE Setup
 1. Open the ``` Arduino IDE ``` first, then open the project by clicking ``` File ``` -> ``` Open ``` :
 
