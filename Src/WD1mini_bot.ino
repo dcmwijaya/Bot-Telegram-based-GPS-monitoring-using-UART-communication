@@ -33,15 +33,17 @@ void loop() {
 // Method: gpssensor
 void gpssensor(){
   while(!mcuSerial.available()){ Serial.println("Failed to get sensor data, system tries to reconnect communication !!"); } // serial communication with the Arduino Pro Micro board failed
-  location = ""; // this String data type is used to store data obtained from serial communication
-  while(mcuSerial.available()){ // this loop is used to read the serial communication data from the Arduino Pro Micro
-    location += char(mcuSerial.read()); // adds each sensor data reading into a data string named location
-  }  
-  latitude = getValue(location, ',', 0); // this variable is used to store latitude data
-  longitude = getValue(location, ',', 1); // this variable is used to store longitude data
-  delay(1000); // delay -> 1 second 
-  Serial.println("Retrieve serial data from Arduino Pro Micro board..."); // display data to the Wemos D1 Mini serial monitor
-  Serial.println("latitude : " + latitude + "\nlongitude : " + longitude + "\n"); // print latitude & longitude data on the serial monitor
+  if(mcuSerial.available()){
+    location = ""; // this String data type is used to store data obtained from serial communication
+    while(mcuSerial.available()){ // this loop is used to read the serial communication data from the Arduino Pro Micro
+      location += char(mcuSerial.read()); // adds each sensor data reading into a data string named location
+    }  
+    latitude = getValue(location, ',', 0); // this variable is used to store latitude data
+    longitude = getValue(location, ',', 1); // this variable is used to store longitude data
+    delay(1000); // delay -> 1 second 
+    Serial.println("Retrieve serial data from Arduino Pro Micro board..."); // display data to the Wemos D1 Mini serial monitor
+    Serial.println("latitude : " + latitude + "\nlongitude : " + longitude + "\n"); // print latitude & longitude data on the serial monitor
+  }
 }
 
 // function for data parsing
