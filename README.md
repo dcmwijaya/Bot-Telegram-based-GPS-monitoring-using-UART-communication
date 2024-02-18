@@ -55,7 +55,7 @@ This project was created as an effort to increase security on personal belonging
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/assets/54527592/36c483ca-9e5f-4d9d-aed3-95c02a0c73b5" alt="Block-Diagram"></td>
-<td><img src="" alt="Pictorial-Diagram"></td>
+<td><img src="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/assets/54527592/449a79ca-d05f-4e41-a063-4cbfa5a4221b" alt="Pictorial-Diagram"></td>
 </tr>
 </table>
 <table>
@@ -63,7 +63,7 @@ This project was created as an effort to increase security on personal belonging
 <th width="840">Wiring</th>
 </tr>
 <tr>
-<td><img src="" alt="Wiring"></td>
+<td><img src="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/assets/54527592/ca52fea1-8949-4ed9-a398-1ee70edbe938" alt="Wiring"></td>
 </tr>
 </table>
 
