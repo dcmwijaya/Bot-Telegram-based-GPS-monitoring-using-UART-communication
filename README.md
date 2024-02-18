@@ -90,27 +90,27 @@ The ``` Arduino Pro Micro ``` has several pins that can support ``` Software Ser
    </tr>
    <tr>
       <td>2</td>
-      <td>TX</td>
+      <td>TX Only</td>
    </tr>
    <tr>
       <td>3</td>
-      <td>TX</td>
+      <td>TX Only</td>
    </tr>
    <tr>
       <td>4</td>
-      <td>TX</td>
+      <td>TX Only</td>
    </tr>
    <tr>
       <td>5</td>
-      <td>TX</td>
+      <td>TX Only</td>
    </tr>
    <tr>
       <td>6</td>
-      <td>TX</td>
+      <td>TX Only</td>
    </tr>
    <tr>
       <td>7</td>
-      <td>TX</td>
+      <td>TX Only</td>
    </tr>
    <tr>
       <td>8</td>
@@ -118,7 +118,15 @@ The ``` Arduino Pro Micro ``` has several pins that can support ``` Software Ser
    </tr>
    <tr>
       <td>9</td>
-      <td>RX</td>
+      <td>RX and TX</td>
+   </tr>
+   <tr>
+      <td>10</td>
+      <td>RX and TX</td>
+   </tr>
+   <tr>
+      <td>11</td>
+      <td>TX Only</td>
    </tr>
 </table>
 
