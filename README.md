@@ -136,6 +136,63 @@ The ``` Arduino Pro Micro ``` has several pins that can support ``` Software Ser
       <td>15</td>
       <td>RX and TX</td>
    </tr>
+</table><br><br>
+
+The ``` Wemos D1 Mini ``` has several pins that can support ``` Software Serial ``` which include :
+
+<table width="840">
+   <tr>
+      <th width="420">Pin Name</th>
+      <th width="420">Support</th>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
 </table>
 
 <br><br>
