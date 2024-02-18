@@ -136,6 +136,63 @@ Setiap papan pengembangan biasanya memiliki pin ``` TX ``` dan ``` RX ```. Pin i
       <td>15</td>
       <td>RX dan TX</td>
    </tr>
+</table><br><br>
+
+``` Wemos D1 Mini ``` memiliki beberapa pin yang dapat mendukung ``` Software Serial ``` yaitu meliputi :
+
+<table width="840">
+   <tr>
+      <th width="420">Nama Pin</th>
+      <th width="420">Mendukung</th>
+   </tr>
+   <tr>
+      <td>Segera Hadir</td>
+      <td>Segera Hadir</td>
+   </tr>
+   <tr>
+      <td>Segera Hadir</td>
+      <td>Segera Hadir</td>
+   </tr>
+   <tr>
+      <td>Segera Hadir</td>
+      <td>Segera Hadir</td>
+   </tr>
+   <tr>
+      <td>Segera Hadir</td>
+      <td>Segera Hadir</td>
+   </tr>
+   <tr>
+      <td>Segera Hadir</td>
+      <td>Segera Hadir</td>
+   </tr>
+   <tr>
+      <td>Segera Hadir</td>
+      <td>Segera Hadir</td>
+   </tr>
+   <tr>
+      <td>Segera Hadir</td>
+      <td>Segera Hadir</td>
+   </tr>
+   <tr>
+      <td>Segera Hadir</td>
+      <td>Segera Hadir</td>
+   </tr>
+   <tr>
+      <td>Segera Hadir</td>
+      <td>Segera Hadir</td>
+   </tr>
+   <tr>
+      <td>Segera Hadir</td>
+      <td>Segera Hadir</td>
+   </tr>
+   <tr>
+      <td>Segera Hadir</td>
+      <td>Segera Hadir</td>
+   </tr>
+   <tr>
+      <td>Segera Hadir</td>
+      <td>Segera Hadir</td>
+   </tr>
 </table>
 
 <br><br>
