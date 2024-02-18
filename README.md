@@ -126,52 +126,40 @@ The ``` Wemos D1 Mini ``` has several pins that can support ``` Software Serial 
       <th width="420">Support</th>
    </tr>
    <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
+      <td>D0</td>
+      <td>TX only</td>
    </tr>
    <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
+      <td>D1</td>
+      <td>RX and TX</td>
    </tr>
    <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
+      <td>D2</td>
+      <td>RX and TX</td>
    </tr>
    <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
+      <td>D3</td>
+      <td>RX and TX</td>
    </tr>
    <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
+      <td>D4</td>
+      <td>RX and TX</td>
    </tr>
    <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
+      <td>D5</td>
+      <td>RX and TX</td>
    </tr>
    <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
+      <td>D6</td>
+      <td>RX and TX</td>
    </tr>
    <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
+      <td>D7</td>
+      <td>RX and TX</td>
    </tr>
    <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-   </tr>
-   <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-   </tr>
-   <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-   </tr>
-   <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
+      <td>D8</td>
+      <td>RX and TX</td>
    </tr>
 </table>
 
