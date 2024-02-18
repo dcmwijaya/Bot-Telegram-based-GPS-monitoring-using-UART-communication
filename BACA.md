@@ -126,8 +126,8 @@ Setiap papan pengembangan biasanya memiliki pin ``` TX ``` dan ``` RX ```. Pin i
       <th width="420">Mendukung</th>
    </tr>
    <tr>
-      <td>Segera Hadir</td>
-      <td>Segera Hadir</td>
+      <td>D3</td>
+      <td>RX dan TX</td>
    </tr>
    <tr>
       <td>Segera Hadir</td>
@@ -170,8 +170,8 @@ Setiap papan pengembangan biasanya memiliki pin ``` TX ``` dan ``` RX ```. Pin i
       <td>Segera Hadir</td>
    </tr>
    <tr>
-      <td>Segera Hadir</td>
-      <td>Segera Hadir</td>
+      <td>Pin lainnya</td>
+      <td>Hanya TX</td>
    </tr>
 </table>
 
