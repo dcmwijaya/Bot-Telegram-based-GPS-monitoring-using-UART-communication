@@ -85,26 +85,32 @@ The ``` Arduino Pro Micro ``` has several pins that can support ``` Software Ser
 
 <table width="840">
    <tr>
-      <th width="420">Pin</th>
-      <th width="420">Support</th>
+      <th width="280">Pin</th>
+      <th width="280">Advantages</th>
+      <th width="280">Disadvantages</th>
    </tr>
    <tr>
       <td>Coming Soon</td>
-      <td>Coming Soon</td>
-   </tr>
-   <tr>
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-   </tr>
-   <tr>
       <td>Coming Soon</td>
       <td>Coming Soon</td>
    </tr>
    <tr>
       <td>Coming Soon</td>
       <td>Coming Soon</td>
+      <td>Coming Soon</td>
    </tr>
    <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+      <td>Coming Soon</td>
+   </tr>
+   <tr>
+      <td>Coming Soon</td>
       <td>Coming Soon</td>
       <td>Coming Soon</td>
    </tr>
