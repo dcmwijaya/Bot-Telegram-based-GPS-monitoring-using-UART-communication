@@ -3,7 +3,7 @@
 #include <TinyGPS++.h> // calls a library called TinyGPS++.h
 
 // object initialization
-SoftwareSerial gpsSerial(2,3); // 2 As RXD pin, 3 As TXD pin -> Arduino Pro Micro to GPS Module Sensor
+SoftwareSerial gpsSerial(10,11); // 10 As RXD pin, 11 As TXD pin -> Arduino Pro Micro to GPS Module Sensor
 TinyGPSPlus gps; // create an object with the name gps
 
 // variable initialization
