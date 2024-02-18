@@ -63,7 +63,7 @@ This project was created as an effort to increase security on personal belonging
 <th width="840">Wiring</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/assets/54527592/5c7888bf-721f-45e3-b549-f8b69e915171" alt="Wiring"></td>
+<td><img src="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/assets/54527592/6ab37ae9-b7ac-4b5c-81e4-45a39ba69f06" alt="Wiring"></td>
 </tr>
 </table>
 
