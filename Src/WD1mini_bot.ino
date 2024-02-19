@@ -7,9 +7,9 @@ CTBot myBot; // constructor CTBot
 CTBotInlineKeyboard myKbd; // custom inline keyboard object helper
 
 // variable initialization
-#define ssid "YOUR_WIFI_NAME" // ssid name
-#define password "YOUR_WIFI_PASSWORD" // ssid password
-#define botToken "YOUR_API_BOT_TOKEN" // telegram bot API token 
+#define ssid "WIJAYA" // ssid name
+#define password "IsW4ri71!!" // ssid password
+#define botToken "6288172021:AAH_p6-8wpRaT0I-xHCEO15izX9h2GtY4JY" // telegram bot API token 
 #define gpsCheck "gpsCheck" // callback data sent when "Checking GPS" button is pressed
 String location, latitude, longitude; // data with String type is used for GPS sensor purposes
 String sendMsg1, sendMsg2; // data with String type is used for telegram bot purposes
@@ -32,18 +32,21 @@ void loop() {
 
 // Method: gpssensor
 void gpssensor(){
-  while(!mcuSerial.available()){ Serial.println("Failed to get sensor data, system tries to reconnect communication !!"); } // serial communication with the Arduino Pro Micro board failed
+  if(!mcuSerial.available()){ 
+    while(!mcuSerial.available()){ Serial.println("The system is waiting for serial communication from the Arduino Pro Micro !!"); } // waiting for serial communication
+  }
   if(mcuSerial.available()){
     location = ""; // this String data type is used to store data obtained from serial communication
     while(mcuSerial.available()){ // this loop is used to read the serial communication data from the Arduino Pro Micro
       location += char(mcuSerial.read()); // adds each sensor data reading into a data string named location
     }  
+    location.trim(); // remove existing spaces
     latitude = getValue(location, ',', 0); // this variable is used to store latitude data
     longitude = getValue(location, ',', 1); // this variable is used to store longitude data
-    delay(1000); // delay -> 1 second 
-    Serial.println("Retrieve serial data from Arduino Pro Micro board..."); // display data to the Wemos D1 Mini serial monitor
-    Serial.println("latitude : " + latitude + "\nlongitude : " + longitude + "\n"); // print latitude & longitude data on the serial monitor
+    delay(7000); // delay -> 7 second 
   }
+  Serial.println("Retrieve serial data from Arduino Pro Micro board..."); // display data to the Wemos D1 Mini serial monitor
+  Serial.println("latitude : " + latitude + "\nlongitude : " + longitude + "\n"); // print latitude & longitude data on the serial monitor
 }
 
 // function for data parsing
@@ -113,7 +116,7 @@ void telegrambot(){
           sendMsg1 += "🗺️ Latitude :  "+latitude+"\n\n🗺️ Longitude :  "+longitude;
           sendMsg1 += "\n\nTo see the specific position of the object, please click the link below :";
           sendMsg1 += "\n\n◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎\nhttps://www.google.com/maps/@"+location;
-          sendMsg1 += "◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎";
+          sendMsg1 += "\n◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎";
           myBot.sendMessage(msg.sender.id, sendMsg1);
         }
       }
