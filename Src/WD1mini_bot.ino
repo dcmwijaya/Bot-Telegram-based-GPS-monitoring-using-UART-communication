@@ -116,9 +116,7 @@ void telegrambot(){
           sendMsg1 += "\n◎◎◎◎       🌍 ITEM POSITION       ◎◎◎◎";
           sendMsg1 += "\n◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎\n\n";
           sendMsg1 += "🗺️ Latitude :  "+latitude+"\n\n🗺️ Longitude :  "+longitude;
-          sendMsg1 += "\n\nTo see the specific position of the object, please click the link below :";
-          sendMsg1 += "\n\n◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎\nhttps://www.google.com/maps/@"+location;
-          sendMsg1 += "\n◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎";
+          sendMsg1 += "\n\n◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎◎";
           myBot.sendMessage(msg.sender.id, sendMsg1);
         }
       }
