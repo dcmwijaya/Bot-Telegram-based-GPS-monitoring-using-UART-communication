@@ -20,6 +20,8 @@ void setup() {
 // Method: loop
 void loop() {  
   sensor(); // calling the sensor method
+  view_data(); // calling the view_data method
+  send_data(); // calling the send_data method
 }
 
 // Method: sensor
@@ -30,15 +32,13 @@ void sensor(){
       if (gps.location.isValid()){ // if the GPS location is valid then
         lat = (gps.location.lat()); // this float variable is to hold gps data -> latitude
         lng = (gps.location.lng()); // this float variable is to hold gps data -> longitude
-      }
+      }      
     }
-    // lat = -7.3364958; lng = 112.6367014; // dummy Data
-    latitude = String(lat, 6); // this string variable is to hold gps data -> latitude
-    longitude = String(lng, 6); // this string variable is to hold gps data -> longitude
-    delay(1000); // delay -> 1 second
-    view_data(); // calling the view_data method
-    send_data(); // calling the send_data method
   }
+//  lat = -7.3364958; lng = 112.6367014; // dummy Data
+  latitude = String(lat, 6); // this string variable is to hold gps data -> latitude
+  longitude = String(lng, 6); // this string variable is to hold gps data -> longitude
+  delay(1000); // delay -> 1 second
 }
 
 // Method: view_data
@@ -46,11 +46,11 @@ void view_data(){
   // display data to the Arduino Pro Micro serial monitor
   Serial.println("Transmit serial data to Wemos D1 Mini...");
   Serial.println("latitude : " + latitude + "\nlongitude : " + longitude + "\n");
-  delay(5000); // delay -> 5 second
+  delay(7000); // delay -> 7 second
 }
 
 // Method: send_data
 void send_data(){
   // send data from Arduino Pro Micro to Wemos D1 Mini
-  Serial1.println(latitude+","+longitude);
+  Serial1.print(latitude+","+longitude);
 }
