@@ -32,10 +32,10 @@ void loop() {
 
 // Method: gpssensor
 void gpssensor(){
-  if(!mcuSerial.available()){ 
+  if(!mcuSerial.available()){ // if serial communication is not connected then do :
     while(!mcuSerial.available()){ Serial.println("The system is waiting for serial communication from the Arduino Pro Micro !!"); } // waiting for serial communication
   }
-  if(mcuSerial.available()){
+  if(mcuSerial.available()){ // if serial communication is connected then do :
     location = ""; // this String data type is used to store data obtained from serial communication
     while(mcuSerial.available()){ // this loop is used to read the serial communication data from the Arduino Pro Micro
       location += char(mcuSerial.read()); // adds each sensor data reading into a data string named location
