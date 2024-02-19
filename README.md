@@ -339,8 +339,8 @@ Via Telegram: <a href="https://t.me/personalgps_bot">@personalgps_bot</a>
 <th width="840" colspan="2">Telegram Bot</th>
 </tr>
 <tr>
-<td width="420"><img src="https://github.com/devancakra/Arduino-Pro-Micro-based-GPS-Monitoring-for-Personal-Items-with-Telegram-Bot/assets/54527592/675c126a-b4b4-4ed2-a1a7-8fe40e7fcc63" alt="telegram_bot1"></td>
-<td width="420"><img src="https://github.com/devancakra/Arduino-Pro-Micro-based-GPS-Monitoring-for-Personal-Items-with-Telegram-Bot/assets/54527592/861fdb3b-f822-4b6c-861a-d63118d84511" alt="telegram_bot2"></td>
+<td width="420"><img src="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/assets/54527592/73de4858-b062-4b4c-8457-c7bfe08684e7" alt="telegram_bot1"></td>
+<td width="420"><img src="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/assets/54527592/c6c7e0da-c522-4be8-9e0b-b0dbaa6223cc" alt="telegram_bot2"></td>
 </tr>
 </table>
 
