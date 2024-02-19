@@ -331,7 +331,7 @@ Via Telegram: <a href="https://t.me/personalgps_bot">@personalgps_bot</a>
 <th width="840">GPS Device</th>
 </tr>
 <tr>
-<td><img src="" alt="gps_device"></td>
+<td><img src="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/assets/54527592/871ea86c-e63b-4304-a211-9a3bd9b4cf53" alt="gps_device"></td>
 </tr>
 </table>
 <table>
