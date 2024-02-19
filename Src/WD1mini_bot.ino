@@ -1,3 +1,4 @@
+// library initialization
 #include <SoftwareSerial.h> // calls a library called SoftwareSerial.h
 #include <CTBot.h> // calls a library called CTBot.h
 
