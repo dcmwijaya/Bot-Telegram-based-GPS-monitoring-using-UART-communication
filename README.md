@@ -104,7 +104,7 @@ The ``` Arduino Pro Micro ``` has several pins that can support ``` Software Ser
       <td>RX and TX</td>
    </tr>
    <tr>
-      <td>The other pins</td>
+      <td>Other Digital pins</td>
       <td>TX only</td>
    </tr>
 </table><br><br>
