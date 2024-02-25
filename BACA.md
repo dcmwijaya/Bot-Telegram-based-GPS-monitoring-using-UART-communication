@@ -70,8 +70,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 <br><br>
 
 ## Pengetahuan Dasar
-
-Secara umum, kita bisa membuat suatu perangkat yang dapat berkomunikasi dengan perangkat lainnya. Komunikasi yang sering digunakan adalah ``` Komunikasi Serial ```. Ada dua macam komunikasi serial, yaitu ``` Hardware Serial ``` dan ``` Software Serial ```.<br><br>
+Pada dasarnya, suatu perangkat itu dapat dikomunikasikan dengan perangkat lain baik secara nirkabel maupun dengan kabel. Komunikasi antar perangkat keras yang umum digunakan salah satunya adalah ``` Komunikasi Serial ```. Dapat diketahui bersama bahwa ``` Komunikasi Serial ``` ini ada tiga jenis, yaitu meliputi: ``` UART (Universal Asynchronous Receiver-Transmitter) ```, ``` SPI (Serial Peripheral Interface) ```, dan ``` I2C (Inter Integrated Circuit) ```. Adapun proyek yang dikerjakan oleh penulis ini lebih mengedepankan ``` UART ``` sebagai sarana komunikasinya. Ada dua macam ``` Komunikasi Serial UART ```, yaitu ``` Hardware Serial ``` dan ``` Software Serial ```.<br><br>
 
 <strong>1. Komunikasi Hardware Serial</strong>
 
