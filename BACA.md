@@ -104,7 +104,7 @@ Pada dasarnya, suatu perangkat itu dapat dikomunikasikan dengan perangkat lain b
       <td>RX dan TX</td>
    </tr>
    <tr>
-      <td>Pin lainnya</td>
+      <td>Pin Digital lainnya</td>
       <td>Hanya TX</td>
    </tr>
 </table><br><br>
