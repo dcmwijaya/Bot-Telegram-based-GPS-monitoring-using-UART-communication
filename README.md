@@ -70,8 +70,7 @@ This project was created as an effort to increase security on personal belonging
 <br><br>
 
 ## Basic Knowledge
-
-In general, we can make a device communicate with another device. Communication that is often used is using ``` Serial Communication ```. There are two kinds of serial communication, namely ``` Hardware Serial ``` and ``` Software Serial ```.<br><br>
+Basically, a device can be communicated with other devices either wirelessly or by cable. Communication between commonly used hardware is ``` Serial Communication ```. It can be known that there are three types of ``` Serial Communication ```, which include: ``` UART (Universal Asynchronous Receiver-Transmitter) ```, ``` SPI (Serial Peripheral Interface) ```, and ``` I2C (Inter Integrated Circuit) ```. The project undertaken by this author prioritizes ``` UART ``` as a means of communication. There are two kinds of ``` UART Serial Communication ```, namely ``` Hardware Serial ``` and ``` Software Serial ```.<br><br>
 
 <strong>1. Hardware Serial Communication</strong>
 
