@@ -4,7 +4,7 @@
 ![Project](https://img.shields.io/badge/Project-Arduino-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
 # Telegram-Bot-based-GPS-monitoring-with-UART-communication
-Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang pribadi. Posisi barang dapat dipantau setiap saat melalui bot telegram, sehingga barang tidak akan mudah dicuri. Jika seseorang kehilangan barang, selama GPS masih terpasang dan dapat berfungsi dengan baik, maka posisinya akan segera terlacak. Dalam proyek ini, Arduino Pro Micro tugasnya untuk menampung data koordinat. Data yang ditampung kemudian dikirimkan ke Wemos D1 Mini melalui UART. Data yang diterima oleh Wemos D1 Mini melalui UART inilah yang disebut data mentah. Data mentah ini nantinya akan diolah menjadi data yang berguna untuk keperluan Bot Telegram. Bot Telegram hanya akan merespon pengguna jika ada interaksi.
+Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang pribadi. Posisi barang dapat dipantau setiap saat melalui bot telegram, sehingga barang tidak akan mudah dicuri. Jika seseorang kehilangan barang, selama GPS masih terpasang dan dapat berfungsi dengan baik, maka posisinya akan segera terlacak. Dalam proyek ini, Arduino Pro Micro tugasnya untuk menampung data koordinat. Data yang ditampung kemudian dikirimkan ke Wemos D1 Mini melalui ``` UART: Hardware Serial ```. Data yang diterima oleh Wemos D1 Mini melalui ``` UART: Software Serial ``` inilah yang disebut data mentah. Data mentah ini nantinya akan diolah menjadi data yang berguna untuk keperluan Bot Telegram. Bot Telegram hanya akan merespon pengguna jika ada interaksi.
 
 <br><br>
 
@@ -70,7 +70,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 <br><br>
 
 ## Pengetahuan Dasar
-Pada dasarnya, suatu perangkat itu dapat dikomunikasikan dengan perangkat lain baik secara nirkabel maupun dengan kabel. Komunikasi antar perangkat keras yang umum digunakan salah satunya adalah ``` Komunikasi Serial ```. Dapat diketahui bersama bahwa ``` Komunikasi Serial ``` ini ada tiga jenis, yaitu meliputi: ``` UART (Universal Asynchronous Receiver-Transmitter) ```, ``` SPI (Serial Peripheral Interface) ```, dan ``` I2C (Inter Integrated Circuit) ```. Adapun proyek yang dikerjakan oleh penulis ini lebih mengedepankan ``` UART ``` sebagai sarana komunikasinya. Ada dua macam ``` Komunikasi Serial UART ```, yaitu ``` Hardware Serial ``` dan ``` Software Serial ```.<br><br>
+Pada dasarnya, suatu perangkat itu dapat dikomunikasikan dengan perangkat lain baik secara nirkabel maupun dengan kabel. Komunikasi antar perangkat keras yang umum digunakan salah satunya adalah ``` Komunikasi Serial ```. Dapat diketahui bersama bahwa ``` Komunikasi Serial ``` ini ada tiga jenis, yaitu meliputi: ``` UART (Universal Asynchronous Receiver-Transmitter) ```, ``` SPI (Serial Peripheral Interface) ```, dan ``` I2C (Inter Integrated Circuit) ```. Ada dua macam ``` Komunikasi Serial UART ```, yaitu ``` Hardware Serial ``` dan ``` Software Serial ```.<br><br>
 
 <strong>1. Komunikasi Hardware Serial</strong>
 
