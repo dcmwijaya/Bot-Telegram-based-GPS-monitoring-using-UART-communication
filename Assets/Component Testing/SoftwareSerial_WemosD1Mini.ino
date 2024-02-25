@@ -7,7 +7,7 @@ void setup(){
   mySerial.begin(9600);
 }
 void loop(){
-  mySerial.print("hello Client");
+  mySerial.print("hello Slave");
   delay(5000);
   
   if(mySerial.available()> 0){
