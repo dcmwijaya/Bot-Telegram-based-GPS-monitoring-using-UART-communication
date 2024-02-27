@@ -12,8 +12,7 @@ Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang p
 ## Kebutuhan Proyek
 | Bagian | Deskripsi |
 | --- | --- |
-| Papan Pengembangan | Arduino Pro Micro Leonardo ATMEGA32U4 |
-| Papan Pendukung | Wemos D1 Mini |
+| Papan Pengembangan | • Arduino Pro Micro Leonardo ATMEGA32U4<br>• Wemos D1 Mini |
 | Editor Kode | Arduino IDE |
 | Dukungan Aplikasi | Bot Telegram |
 | Driver | USB-Serial CH340 |
