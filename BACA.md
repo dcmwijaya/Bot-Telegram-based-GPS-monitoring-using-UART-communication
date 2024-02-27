@@ -1,10 +1,10 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Bot-of-Things-based-GPS-monitoring-using-UART-communication)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Bot-Telegram-based-GPS-monitoring-using-UART-communication)
 ![Project](https://img.shields.io/badge/Project-Bot%20of%20Things-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
 
-# Bot-of-Things-based-GPS-monitoring-using-UART-communication
-<strong>Proyek Tunggal: Pemantauan GPS berbasis Bot of Things menggunakan komunikasi UART</strong><br><br>
+# Bot-Telegram-based-GPS-monitoring-using-UART-communication
+<strong>Proyek Tunggal: Pemantauan GPS berbasis Bot Telegram menggunakan komunikasi UART</strong><br><br>
 Proyek ini dibuat sebagai upaya untuk meningkatkan keamanan pada barang-barang pribadi. Posisi barang dapat dipantau setiap saat melalui bot telegram, sehingga barang tidak akan mudah dicuri. Jika seseorang kehilangan barang, selama GPS masih terpasang dan dapat berfungsi dengan baik, maka posisinya akan segera terlacak. Dalam proyek ini, Arduino Pro Micro tugasnya untuk menampung data koordinat. Data yang ditampung kemudian dikirimkan ke Wemos D1 Mini melalui UART: Hardware Serial. Data yang diterima oleh Wemos D1 Mini melalui UART: Software Serial inilah yang disebut data mentah. Data mentah ini nantinya akan diolah menjadi data yang berguna untuk keperluan Bot Telegram. Bot Telegram hanya akan merespon pengguna jika ada interaksi.
 
 <br><br>
