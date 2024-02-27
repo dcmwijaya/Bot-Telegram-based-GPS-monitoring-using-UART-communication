@@ -12,8 +12,7 @@ This project was created as an effort to increase security on personal belonging
 ## Project Requirements
 | Part | Description |
 | --- | --- |
-| Development Board | Arduino Pro Micro Leonardo ATMEGA32U4 |
-| Supporting Board | Wemos D1 Mini |
+| Development Board | • Arduino Pro Micro Leonardo ATMEGA32U4<br>• Wemos D1 Mini |
 | Code Editor | Arduino IDE |
 | Application Support | Telegram Bot |
 | Driver | USB-Serial CH340 |
