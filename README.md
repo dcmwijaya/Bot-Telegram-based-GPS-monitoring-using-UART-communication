@@ -55,7 +55,7 @@ Theft of goods is rampant in Indonesia today because it is first influenced by e
 <th width="420">Pictorial Diagram</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/assets/54527592/36c483ca-9e5f-4d9d-aed3-95c02a0c73b5" alt="Block-Diagram"></td>
+<td><img src="https://github.com/devancakra/Bot-Telegram-based-GPS-monitoring-using-UART-communication/assets/54527592/65bd5539-6c7d-43c5-97a0-bc2ed70107c3" alt="Block-Diagram"></td>
 <td><img src="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/assets/54527592/449a79ca-d05f-4e41-a063-4cbfa5a4221b" alt="Pictorial-Diagram"></td>
 </tr>
 </table>
