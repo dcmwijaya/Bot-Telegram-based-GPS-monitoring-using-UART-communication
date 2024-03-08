@@ -17,6 +17,7 @@ Theft of goods is rampant in Indonesia today because it is first influenced by e
 | Application Support | Telegram Bot |
 | Driver | USB-Serial CH340 |
 | Communications Protocol | • Universal Asynchronous Receiver-Transmitter (UART)<br>• MTProto |
+| IoT Architecture | 3 Layer |
 | Programming Language | C/C++ |
 | Arduino Library | • SoftwareSerial (default)<br>• TinyGPS++<br>• CTBot<br>• ArduinoJson |
 | Sensor | GPS NEO6MV2 (x1) |
