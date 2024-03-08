@@ -17,7 +17,7 @@ Pencurian barang marak terjadi di Indonesia saat ini karena yang pertama dipenga
 | Dukungan Aplikasi | Bot Telegram |
 | Driver | USB-Serial CH340 |
 | Protokol Komunikasi | • Universal Asynchronous Receiver-Transmitter (UART)<br>• MTProto |
-| Arsitektur IoT | 3 Layer |
+| Arsitektur IoT | 3 Lapisan |
 | Bahasa Pemrograman | C/C++ |
 | Pustaka Arduino | • SoftwareSerial (bawaan)<br>• TinyGPS++<br>• CTBot<br>• ArduinoJson |
 | Sensor | GPS NEO6MV2 (x1) |
