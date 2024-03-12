@@ -293,7 +293,7 @@ The ``` Wemos D1 Mini ``` has several pins that can support ``` Software Serial 
       
    For example :
 
-   ```
+   ```ino
    #define botToken "2006772150:AAE6Fdjk3KbiySkzV6CLbd6ClJDzgTfJ5y0"
    ```
    
