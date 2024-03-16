@@ -339,7 +339,7 @@ Via Telegram: <a href="https://t.me/personalgps_bot">@personalgps_bot</a>
 <br><br>
 
 ## Pengujian Komponen
-Anda dapat mengunduh berkas uji komponen melalui tautan berikut: <a href="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/tree/master/Assets/Component%20Testing">Click Here</a>
+Anda dapat mengunduh berkas uji komponen melalui tautan berikut: <a href="https://github.com/devancakra/Telegram-Bot-based-GPS-monitoring-with-UART-communication/tree/master/Assets/Component%20Testing">Klik Disini</a>
 
 <br><br>
 
