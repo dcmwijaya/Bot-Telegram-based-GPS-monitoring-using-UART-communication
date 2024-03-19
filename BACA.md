@@ -21,7 +21,7 @@ Pencurian barang marak terjadi di Indonesia saat ini karena yang pertama dipenga
 | Bahasa Pemrograman | C/C++ |
 | Pustaka Arduino | • SoftwareSerial (bawaan)<br>• TinyGPS++<br>• CTBot<br>• ArduinoJson |
 | Sensor | GPS NEO6MV2 (x1) |
-| Komponen Lainnya | • Kabel Mikro USB - USB tipe A (x1)<br>• Kabel jumper (1 set)<br>• Baterai Li-ion 18650 5V (x1)<br>• Tempat baterai 1 slot (x1)<br>• Kabel Mikro USB - JST 2 pin (x1) |
+| Komponen Lainnya | • Kabel USB Mikro - USB tipe A (x1)<br>• Kabel jumper (1 set)<br>• Baterai Li-ion 18650 5V (x1)<br>• Tempat baterai 1 slot (x1)<br>• Kabel Mikro USB - JST 2 pin (x1) |
 
 <br><br>
 
