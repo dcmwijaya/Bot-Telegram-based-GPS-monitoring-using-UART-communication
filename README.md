@@ -15,7 +15,7 @@ Theft of goods is rampant in Indonesia today because it is first influenced by e
 | Development Board | • Arduino Pro Micro Leonardo ATMEGA32U4<br>• Wemos D1 Mini |
 | Code Editor | Arduino IDE |
 | Application Support | Telegram Bot |
-| Driver | USB-Serial CH340 |
+| Driver | CH340 USB Driver |
 | Communications Protocol | • Universal Asynchronous Receiver-Transmitter (UART)<br>• MTProto |
 | IoT Architecture | 3 Layer |
 | Programming Language | C/C++ |
@@ -31,17 +31,17 @@ Theft of goods is rampant in Indonesia today because it is first influenced by e
    <table><tr><td width="810">
          
    ```
-   https://www.arduino.cc/en/software
+   https://bit.ly/ArduinoIDE_Installer
    ```
 
    </td></tr></table><br>
    
-2. USB-Serial CH340
+2. CH340 USB Driver
 
    <table><tr><td width="810">
    
    ```
-   https://bit.ly/CH340_Driver
+   https://bit.ly/CH340_USB_Driver
    ```
    
    </td></tr></table>
