@@ -15,7 +15,7 @@ Pencurian barang marak terjadi di Indonesia saat ini karena yang pertama dipenga
 | Papan Pengembangan | • Arduino Pro Micro Leonardo ATMEGA32U4<br>• Wemos D1 Mini |
 | Editor Kode | Arduino IDE |
 | Dukungan Aplikasi | Bot Telegram |
-| Driver | USB-Serial CH340 |
+| Driver | CH340 USB Driver |
 | Protokol Komunikasi | • Universal Asynchronous Receiver-Transmitter (UART)<br>• MTProto |
 | Arsitektur IoT | 3 Lapisan |
 | Bahasa Pemrograman | C/C++ |
@@ -29,21 +29,21 @@ Pencurian barang marak terjadi di Indonesia saat ini karena yang pertama dipenga
 1. Arduino IDE
 
    <table><tr><td width="810">
-
+         
    ```
-   https://www.arduino.cc/en/software
+   https://bit.ly/ArduinoIDE_Installer
    ```
 
    </td></tr></table><br>
-
-2. USB-Serial CH340
+   
+2. CH340 USB Driver
 
    <table><tr><td width="810">
-
+   
    ```
-   https://bit.ly/CH340_Driver
+   https://bit.ly/CH340_USB_Driver
    ```
-
+   
    </td></tr></table>
    
 <br><br>
