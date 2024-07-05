@@ -153,7 +153,9 @@ The ``` Wemos D1 Mini ``` has several pins that can support ``` Software Serial 
       <td>D8</td>
       <td>RX and TX</td>
    </tr>
-</table>
+</table><br>
+
+Wemos D1 Mini Pinout Reference : <a href="https://github.com/devancakra/Bot-Telegram-based-GPS-monitoring-using-UART-communication/blob/master/Assets/Basic%20Knowledge/Pinout%20Wemos%20D1%20Mini.jpg">Click Here</a>
 
 <br><br>
 
