@@ -153,7 +153,9 @@ Pada dasarnya, suatu perangkat itu dapat dikomunikasikan dengan perangkat lain b
       <td>D8</td>
       <td>RX dan TX</td>
    </tr>
-</table>
+</table><br>
+
+Referensi Pinout Wemos D1 Mini : <a href="https://github.com/devancakra/Bot-Telegram-based-GPS-monitoring-using-UART-communication/blob/master/Assets/Basic%20Knowledge/Pinout%20Wemos%20D1%20Mini.jpg">Klik Disini</a>
 
 <br><br>
 
