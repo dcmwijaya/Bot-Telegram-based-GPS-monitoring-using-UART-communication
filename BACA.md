@@ -55,8 +55,8 @@ Pencurian barang marak terjadi di Indonesia saat ini karena yang pertama dipenga
 <th width="420">Diagram Ilustrasi</th>
 </tr>
 <tr>
-<td><img src="Assets/Documentation/Block Diagram.jpg" alt="Block-Diagram"></td>
-<td><img src="Assets/Documentation/Pictorial Diagram.jpg" alt="Pictorial-Diagram"></td>
+<td><img src="Assets/Documentation/Diagram/Block Diagram.jpg" alt="Block-Diagram"></td>
+<td><img src="Assets/Documentation/Diagram/Pictorial Diagram.jpg" alt="Pictorial-Diagram"></td>
 </tr>
 </table>
 <table>
@@ -64,7 +64,7 @@ Pencurian barang marak terjadi di Indonesia saat ini karena yang pertama dipenga
 <th width="840">Pengkabelan</th>
 </tr>
 <tr>
-<td><img width="840" src="Assets/Documentation/Wiring Table.jpg" alt="Wiring"></td>
+<td><img width="840" src="Assets/Documentation/Table/Device Wiring.jpg" alt="Wiring"></td>
 </tr>
 </table>
 
@@ -155,7 +155,7 @@ Pada dasarnya, suatu perangkat itu dapat dikomunikasikan dengan perangkat lain b
    </tr>
 </table><br>
 
-Referensi Pinout Wemos D1 Mini : <a href="Assets/Documentation/Pinout Wemos D1 Mini.jpg">Klik Disini</a>
+Referensi Pinout Wemos D1 Mini : <a href="Assets/Documentation/Pinout/Wemos D1 Mini.jpg">Klik Disini</a>
 
 <br><br>
 
@@ -325,7 +325,7 @@ Via Telegram: <a href="https://t.me/personalgps_bot">@personalgps_bot</a>
 <th width="840">Perangkat GPS</th>
 </tr>
 <tr>
-<td><img src="Assets/Documentation/GPS Device.jpg" alt="gps_device"></td>
+<td><img src="Assets/Documentation/Experiment/GPS Device.jpg" alt="gps_device"></td>
 </tr>
 </table>
 <table>
@@ -333,8 +333,8 @@ Via Telegram: <a href="https://t.me/personalgps_bot">@personalgps_bot</a>
 <th width="840" colspan="2">Bot Telegram</th>
 </tr>
 <tr>
-<td width="420"><img src="Assets/Documentation/Telegram Bot-1.jpg" alt="telegram_bot1"></td>
-<td width="420"><img src="Assets/Documentation/Telegram Bot-2.jpg" alt="telegram_bot2"></td>
+<td width="420"><img src="Assets/Documentation/Experiment/Telegram Bot-1.jpg" alt="telegram_bot1"></td>
+<td width="420"><img src="Assets/Documentation/Experiment/Telegram Bot-2.jpg" alt="telegram_bot2"></td>
 </tr>
 </table>
 

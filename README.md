@@ -55,8 +55,8 @@ Theft of goods is rampant in Indonesia today because it is first influenced by e
 <th width="420">Pictorial Diagram</th>
 </tr>
 <tr>
-<td><img src="Assets/Documentation/Block Diagram.jpg" alt="Block-Diagram"></td>
-<td><img src="Assets/Documentation/Pictorial Diagram.jpg" alt="Pictorial-Diagram"></td>
+<td><img src="Assets/Documentation/Diagram/Block Diagram.jpg" alt="Block-Diagram"></td>
+<td><img src="Assets/Documentation/Diagram/Pictorial Diagram.jpg" alt="Pictorial-Diagram"></td>
 </tr>
 </table>
 <table>
@@ -64,7 +64,7 @@ Theft of goods is rampant in Indonesia today because it is first influenced by e
 <th width="840">Wiring</th>
 </tr>
 <tr>
-<td><img src="Assets/Documentation/Wiring Table.jpg" alt="Wiring"></td>
+<td><img src="Assets/Documentation/Table/Device Wiring.jpg" alt="Wiring"></td>
 </tr>
 </table>
 
@@ -155,7 +155,7 @@ The ``` Wemos D1 Mini ``` has several pins that can support ``` Software Serial 
    </tr>
 </table><br>
 
-Wemos D1 Mini Pinout Reference : <a href="Assets/Documentation/Pinout Wemos D1 Mini.jpg">Click Here</a>
+Wemos D1 Mini Pinout Reference : <a href="Assets/Documentation/Pinout/Wemos D1 Mini.jpg">Click Here</a>
 
 <br><br>
 
@@ -325,7 +325,7 @@ Via Telegram: <a href="https://t.me/personalgps_bot">@personalgps_bot</a>
 <th width="840">GPS Device</th>
 </tr>
 <tr>
-<td><img src="Assets/Documentation/GPS Device.jpg" alt="gps_device"></td>
+<td><img src="Assets/Documentation/Experiment/GPS Device.jpg" alt="gps_device"></td>
 </tr>
 </table>
 <table>
@@ -333,8 +333,8 @@ Via Telegram: <a href="https://t.me/personalgps_bot">@personalgps_bot</a>
 <th width="840" colspan="2">Telegram Bot</th>
 </tr>
 <tr>
-<td width="420"><img src="Assets/Documentation/Telegram Bot-1.jpg" alt="telegram_bot1"></td>
-<td width="420"><img src="Assets/Documentation/Telegram Bot-2.jpg" alt="telegram_bot2"></td>
+<td width="420"><img src="Assets/Documentation/Experiment/Telegram Bot-1.jpg" alt="telegram_bot1"></td>
+<td width="420"><img src="Assets/Documentation/Experiment/Telegram Bot-2.jpg" alt="telegram_bot2"></td>
 </tr>
 </table>
 
