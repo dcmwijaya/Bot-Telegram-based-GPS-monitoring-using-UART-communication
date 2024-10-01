@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Bot-Telegram-based-GPS-monitoring-using-UART-communication?logo=Codeforces&logoColor=white&color=%23F7DF1E)
 ![Project1](https://img.shields.io/badge/Project-%2D1-Arduino-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
-![Project2](https://img.shields.io/badge/Project-%2D2-Wemos%20D1%20Mini-light.svg?style=flat&logo=espressif&logoColor=white&color=%23F7DF1E)
+![Project2](https://img.shields.io/badge/Project-%2D2-Wemos-light.svg?style=flat&logo=espressif&logoColor=white&color=%23F7DF1E)
 ![Type](https://img.shields.io/badge/Type-Personal%20Experiment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Bot-Telegram-based-GPS-monitoring-using-UART-communication
