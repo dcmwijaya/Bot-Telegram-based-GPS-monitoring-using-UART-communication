@@ -55,8 +55,8 @@ Pencurian barang marak terjadi di Indonesia saat ini karena yang pertama dipenga
 <th width="420">Diagram Ilustrasi</th>
 </tr>
 <tr>
-<td><img src="Assets/Documentation/Diagram/Block Diagram.jpg" alt="Block-Diagram"></td>
-<td><img src="Assets/Documentation/Diagram/Pictorial Diagram.jpg" alt="Pictorial-Diagram"></td>
+<td><img src="Assets/Documentation/Diagram/Block Diagram.jpg" alt="block-diagram"></td>
+<td><img src="Assets/Documentation/Diagram/Pictorial Diagram.jpg" alt="pictorial-diagram"></td>
 </tr>
 </table>
 <table>
@@ -64,7 +64,7 @@ Pencurian barang marak terjadi di Indonesia saat ini karena yang pertama dipenga
 <th width="840">Pengkabelan</th>
 </tr>
 <tr>
-<td><img width="840" src="Assets/Documentation/Table/Device Wiring.jpg" alt="Wiring"></td>
+<td><img width="840" src="Assets/Documentation/Table/Device Wiring.jpg" alt="wiring"></td>
 </tr>
 </table>
 
